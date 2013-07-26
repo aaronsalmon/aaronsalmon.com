@@ -1,6 +1,7 @@
-name: Your New Jekyll Site
+name: Aaron Salmon
 markdown: redcarpet
 pygments: true
+baseurl: /aaronsalmon.com
 
 sass:
     syntax: scss        # scss|sass
