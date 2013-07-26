@@ -1,8 +1,0 @@
-name: Aaron Salmon
-markdown: redcarpet
-pygments: true
-baseurl: /aaronsalmon.com
-
-sass:
-    syntax: scss        # scss|sass
-    style:  expanded  # nested|expanded|compact|compressed
