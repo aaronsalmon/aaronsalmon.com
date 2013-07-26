@@ -1,0 +1,7 @@
+name: Your New Jekyll Site
+markdown: redcarpet
+pygments: true
+
+sass:
+    syntax: scss        # scss|sass
+    style:  expanded  # nested|expanded|compact|compressed
