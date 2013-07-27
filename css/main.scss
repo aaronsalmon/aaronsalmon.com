@@ -365,12 +365,10 @@ footer, header, hgroup, nav, section, audio, canvas, video {
 }
 
 html {
-  height: 100%; 
   -webkit-text-size-adjust: 100%; 
   -ms-text-size-adjust: 100%;
 }
 
-  body {min-height: 100%; font-size: 100%;}
 
 sub, sup {
   font-size: 75%; 
@@ -542,7 +540,6 @@ article, aside, figure, footer, header, hgroup, menu, nav, section {
   border: 0;
 }
 
-html, body { height: 100%; }
 
 body {
   font-size: ($font-size) / $em;
@@ -599,6 +596,13 @@ ol, ul {
 footer {
    clear: both;
   margin: 20px;
+}
+
+.img-circle {
+    border-radius: 500px 500px 500px 500px;
+    box-shadow: 0 0 0 8px #e0e0e0;
+    max-width: 190px;
+    margin-top: 20px;
 }
 
 #elsewhere ul {
