@@ -16,6 +16,462 @@ $link-color: $blue;
 $text-color: $dark-gray;
 
 
+
+
+
+/*****************************************************************************/
+/*
+/*  Frameless     <http://framelessgrid.com/>
+/*  by Joni Korpi     <http://jonikorpi.com/>
+/*  licensed under CC0  <http://creativecommons.org/publicdomain/zero/1.0/>
+/*
+/*****************************************************************************/
+
+
+
+$font-size: 16px;     // Your base font-size in pixels
+$em: $font-size / 1em;  // Shorthand for outputting ems
+
+$column: 48px;  // The column-width of your grid in pixels
+$gutter: 24px;  // The gutter-width of your grid in pixels
+
+
+//
+// Column-widths in variables, in ems
+//
+
+ $cols1: ( 1 * ($column + $gutter) - $gutter) / $em;
+ $cols2: ( 2 * ($column + $gutter) - $gutter) / $em;
+ $cols3: ( 3 * ($column + $gutter) - $gutter) / $em;
+ $cols4: ( 4 * ($column + $gutter) - $gutter) / $em;
+ $cols5: ( 5 * ($column + $gutter) - $gutter) / $em;
+ $cols6: ( 6 * ($column + $gutter) - $gutter) / $em;
+ $cols7: ( 7 * ($column + $gutter) - $gutter) / $em;
+ $cols8: ( 8 * ($column + $gutter) - $gutter) / $em;
+ $cols9: ( 9 * ($column + $gutter) - $gutter) / $em;
+$cols10: (10 * ($column + $gutter) - $gutter) / $em;
+$cols11: (11 * ($column + $gutter) - $gutter) / $em;
+$cols12: (12 * ($column + $gutter) - $gutter) / $em;
+$cols13: (13 * ($column + $gutter) - $gutter) / $em;
+$cols14: (14 * ($column + $gutter) - $gutter) / $em;
+$cols15: (15 * ($column + $gutter) - $gutter) / $em;
+$cols16: (16 * ($column + $gutter) - $gutter) / $em;
+
+
+//
+// Column-widths in a function, in ems
+//
+
+@mixin width ($cols:1) {
+  width: ($cols * ($column + $gutter) - $gutter) / $em;
+}
+  .wrapper {
+    width:($column + $gutter) * 16; // 12 columns
+    margin:0 auto;
+    padding:0;
+  }
+  .col {
+    display:inline;
+    float:left;
+    margin-left:($gutter / 2);
+    margin-right:($gutter / 2);
+  }
+
+    .col1 {width: $cols1;}
+    .col2 {width: $cols2;}
+    .col3 {width: $cols3;}
+    .col4 {width: $cols4;}
+    .col5 {width: $cols5;}
+    .col6 {width: $cols6;}
+    .col7 {width: $cols7;}
+    .col8 {width: $cols8;}
+    .col9 {width: $cols9;}
+    .col10 {width: $cols10;}
+    .col11 {width: $cols11;}
+    .col12 {width: $cols12;}
+
+
+
+
+
+/* Defaults for showing/hiding divs based on screen size */
+.show-default, .show-tablet, .show-mobile-wide, .show-mobile { display:none !important; }
+.hide-default, .hide-tablet, .hide-mobile-wide, .hide-mobile { display:block !important; }
+
+//
+// Default Layout, 12 columns
+//
+/* Default Layout */
+@media only screen and (min-width: 1040px) {
+
+  $column: 65px;  // The column-width of your grid in pixels
+  $gutter: 20px;  // The gutter-width of your grid in pixels
+
+  .show-default { display:block !important; }
+  .hide-default { display:none !important; }
+
+  .wrapper {
+    width:($column + $gutter) * 12; // 12 columns
+    margin:0 auto;
+    padding:0;
+  }
+
+   $cols1: ( 1 * ($column + $gutter) - $gutter );
+   $cols2: ( 2 * ($column + $gutter) - $gutter );
+   $cols3: ( 3 * ($column + $gutter) - $gutter );
+   $cols4: ( 4 * ($column + $gutter) - $gutter );
+   $cols5: ( 5 * ($column + $gutter) - $gutter );
+   $cols6: ( 6 * ($column + $gutter) - $gutter );
+   $cols7: ( 7 * ($column + $gutter) - $gutter );
+   $cols8: ( 8 * ($column + $gutter) - $gutter );
+   $cols9: ( 9 * ($column + $gutter) - $gutter );
+  $cols10: ( 10 * ($column + $gutter) - $gutter );
+  $cols11: ( 11 * ($column + $gutter) - $gutter );
+  $cols12: ( 12 * ($column + $gutter) - $gutter );
+
+  .col {
+    display:inline;
+    float:left;
+    margin-left:($gutter / 2);
+    margin-right:($gutter / 2);
+  }
+
+  .wrapper {
+    .col1 {width: $cols1;}
+    .col2 {width: $cols2;}
+    .col3 {width: $cols3;}
+    .col4 {width: $cols4;}
+    .col5 {width: $cols5;}
+    .col6 {width: $cols6;}
+    .col7 {width: $cols7;}
+    .col8 {width: $cols8;}
+    .col9 {width: $cols9;}
+    .col10 {width: $cols10;}
+    .col11 {width: $cols11;}
+    .col12 {width: $cols12;}
+  }
+}
+
+
+
+
+//
+// Tablet Layout, 12 columns
+//
+/* Tablet Layout */
+@media only screen and (min-width: 768px) and (max-width: 1039px) {
+  
+  $column: 40px;  // The column-width of your grid in pixels
+  $gutter: 20px;  // The gutter-width of your grid in pixels
+  
+  .show-tablet { display:block !important; }
+  .hide-tablet { display:none !important; }
+  
+  .wrapper {
+    width:($column + $gutter) * 12; // 12 columns
+    margin:0 auto;
+    padding:0;
+  }
+  
+   $cols1: ( 1 * ($column + $gutter) - $gutter );
+   $cols2: ( 2 * ($column + $gutter) - $gutter );
+   $cols3: ( 3 * ($column + $gutter) - $gutter );
+   $cols4: ( 4 * ($column + $gutter) - $gutter );
+   $cols5: ( 5 * ($column + $gutter) - $gutter );
+   $cols6: ( 6 * ($column + $gutter) - $gutter );
+   $cols7: ( 7 * ($column + $gutter) - $gutter );
+   $cols8: ( 8 * ($column + $gutter) - $gutter );
+   $cols9: ( 9 * ($column + $gutter) - $gutter );
+  $cols10: ( 10 * ($column + $gutter) - $gutter );
+  $cols11: ( 11 * ($column + $gutter) - $gutter );
+  $cols12: ( 12 * ($column + $gutter) - $gutter );
+
+  .col {
+    display:inline;
+    float:left;
+    margin-left:($gutter / 2);
+    margin-right:($gutter / 2);
+  }
+
+  .wrapper {
+    .col1 {width: $cols1;}
+    .col2 {width: $cols2;}
+    .col3 {width: $cols3;}
+    .col4 {width: $cols4;}
+    .col5 {width: $cols5;}
+    .col6 {width: $cols6;}
+    .col7 {width: $cols7;}
+    .col8 {width: $cols8;}
+    .col9 {width: $cols9;}
+    .col10 {width: $cols10;}
+    .col11 {width: $cols11;}
+    .col12 {width: $cols12;}
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+// Mobile Layout, 3 columns
+//
+/* Mobile Layout */
+@media only screen and (max-width: 767px) {
+  
+  $column: 84px;  // The column-width of your grid in pixels
+  $gutter: 20px;  // The gutter-width of your grid in pixels
+  
+  .show-mobile { display:block !important; }
+  .hide-mobile { display:none !important; }
+  
+  .wrapper {
+    width:($column + $gutter) * 3; // 3 columns
+    margin:0 auto;
+    padding:0;
+  }
+  
+   $cols1: ( 1 * ($column + $gutter) - $gutter );
+   $cols2: ( 3 * ($column + $gutter) - $gutter );
+   $cols3: ( 3 * ($column + $gutter) - $gutter );
+   $cols4: ( 3 * ($column + $gutter) - $gutter );
+   $cols5: ( 3 * ($column + $gutter) - $gutter );
+   $cols6: ( 3 * ($column + $gutter) - $gutter );
+   $cols7: ( 3 * ($column + $gutter) - $gutter );
+   $cols8: ( 3 * ($column + $gutter) - $gutter );
+   $cols9: ( 3 * ($column + $gutter) - $gutter );
+  $cols10: ( 3 * ($column + $gutter) - $gutter );
+  $cols11: ( 3 * ($column + $gutter) - $gutter );
+  $cols12: ( 3 * ($column + $gutter) - $gutter );
+
+  .col {
+    display:inline;
+    float:left;
+    margin-left:($gutter / 2);
+    margin-right:($gutter / 2);
+  }
+
+  .wrapper {
+    .col1 {width: $cols1;}
+    .col2 {width: $cols2;}
+    .col3 {width: $cols3;}
+    .col4 {width: $cols4;}
+    .col5 {width: $cols5;}
+    .col6 {width: $cols6;}
+    .col7 {width: $cols7;}
+    .col8 {width: $cols8;}
+    .col9 {width: $cols9;}
+    .col10 {width: $cols10;}
+    .col11 {width: $cols11;}
+    .col12 {width: $cols12;}
+  }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  
+  $column: 60px;  // The column-width of your grid in pixels
+  $gutter: 20px;  // The gutter-width of your grid in pixels
+  
+  .show-mobile-wide { display:block !important; }
+  .hide-mobile-wide { display:none !important; }
+  
+  .wrapper {
+    width:($column + $gutter) * 6; // 6 columns
+    margin:0 auto;
+    padding:0;
+  }
+  
+   $cols1: ( 1 * ($column + $gutter) - $gutter );
+   $cols2: ( 2 * ($column + $gutter) - $gutter );
+   $cols3: ( 3 * ($column + $gutter) - $gutter );
+   $cols4: ( 6 * ($column + $gutter) - $gutter );
+   $cols5: ( 6 * ($column + $gutter) - $gutter );
+   $cols6: ( 6 * ($column + $gutter) - $gutter );
+   $cols7: ( 6 * ($column + $gutter) - $gutter );
+   $cols8: ( 6 * ($column + $gutter) - $gutter );
+   $cols9: ( 6 * ($column + $gutter) - $gutter );
+  $cols10: ( 6 * ($column + $gutter) - $gutter );
+  $cols11: ( 6 * ($column + $gutter) - $gutter );
+  $cols12: ( 6 * ($column + $gutter) - $gutter );
+
+  .col {
+    display:inline;
+    float:left;
+    margin-left:($gutter / 2);
+    margin-right:($gutter / 2);
+  }
+
+  .wrapper {
+    .col1 {width: $cols1;}
+    .col2 {width: $cols2;}
+    .col3 {width: $cols3;}
+    .col4 {width: $cols4;}
+    .col5 {width: $cols5;}
+    .col6 {width: $cols6;}
+    .col7 {width: $cols7;}
+    .col8 {width: $cols8;}
+    .col9 {width: $cols9;}
+    .col10 {width: $cols10;}
+    .col11 {width: $cols11;}
+    .col12 {width: $cols12;}
+  }
+}
+
+@media 
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-device-pixel-ratio: 2) {
+    
+}
+/*
+  Margin, padding, and border resets
+  except for form elements
+*/
+
+body, div,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+/*
+  Consistency fixes
+  adopted from http://necolas.github.com/normalize.css/
+*/
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, nav, section, audio, canvas, video {
+  display: block;
+}
+
+html {
+  height: 100%; 
+  -webkit-text-size-adjust: 100%; 
+  -ms-text-size-adjust: 100%;
+}
+
+  body {min-height: 100%; font-size: 100%;}
+
+sub, sup {
+  font-size: 75%; 
+  line-height: 0; 
+  position: relative; 
+  vertical-align: baseline;
+}
+
+  sup {top: -0.5em;}
+  sub {bottom: -0.25em;}
+
+pre {
+  white-space: pre; 
+  white-space: pre-wrap; 
+  word-wrap: break-word;
+}
+
+b, strong {font-weight: bold;}
+abbr[title] {border-bottom: 1px dotted;}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a img, img {
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+}
+
+input, textarea, button, select {
+  margin: 0;
+  font-size: 100%;
+  line-height: normal;
+  vertical-align: baseline;
+}
+
+  button,
+  html input[type="button"], 
+  input[type="reset"], 
+  input[type="submit"] {
+      cursor: pointer;
+      -webkit-appearance: button;
+  }
+
+  input[type="checkbox"],
+  input[type="radio"] {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+       -o-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+        box-sizing: border-box;
+  }
+
+  textarea {overflow: auto;}
+
+
+/*
+  These are easy to forget
+*/
+
+::selection {
+  background: red;
+  color: white;
+}
+::-moz-selection {
+  background: red;
+  color: white;
+}
+
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+
+body {
+  -webkit-tap-highlight-color: rgba(255,0,0, 0.62);
+}
+
+
+.clearfix:before,
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+
+
+
+
 /*****************************************************************************/
 /*
 /* normalize.css v2.1.2 | MIT License | git.io/normalize */
@@ -65,7 +521,7 @@ table { border-collapse: collapse; border-spacing: 0;}
 
 /*****************************************************************************/
 /*
-/* Common
+/* Base
 /*
 /*****************************************************************************/
 
@@ -76,12 +532,22 @@ table { border-collapse: collapse; border-spacing: 0;}
   padding: 0;
 }
 
+body, div,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 html, body { height: 100%; }
 
 body {
+  font-size: ($font-size) / $em;
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   text-align: center;
 }
 
@@ -97,136 +563,120 @@ a:visited { color: #a0a; }
 
 
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-ul.posts li {
-  line-height: 1.75em;
-}
-
-ul.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
-}
 
 /*****************************************************************************/
 /*
-/* Site
+/* Common
 /*
 /*****************************************************************************/
 
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
+
+.copyright {
+  font-size: ($font-size - 2) / $em;
+  clear: both;
 }
 
-.site .header a {
-  font-weight: bold;
-  text-decoration: none;
+h1 {
+  font-size: ($font-size + 52) / $em;
+  font-weight: 200;
+  margin: 30px 0px;
 }
 
-.site .header h1.title {
-  display: inline-block;
-  margin-bottom: 2em;
+h2 {
+  font-size: ($font-size + 12) / $em;
+  font-weight: 400;
+  margin: 30px 0px;
 }
 
-.site .header h1.title a {
-  color: #a00;
+h4 {
+  margin: 20px 0px 5px;
 }
 
-.site .header h1.title a:hover {
-  color: #000;
+ol, ul {
+    list-style: none outside none;
 }
 
-.site .header a.extra {
-  color: #aaa;
-  margin-left: 1em;
+footer {
+   clear: both;
+  margin: 20px;
 }
 
-.site .header a.extra:hover {
-  color: #000;
+#elsewhere ul {
+    margin: 0 auto;
+    width: 97px;
+}
+#elsewhere ul li {
+    background: url("/img/iconsYeaaa.png") no-repeat scroll left top transparent;
+}
+#elsewhere ul li.crunchbase {
+    background-position: 0 0;
+}
+#elsewhere ul li.facebook {
+    background-position: 0 -34px;
+}
+#elsewhere ul li.dribbble {
+    background-position: 0 -68px;
+}
+#elsewhere ul li.delicious {
+    background-position: 0 -102px;
+}
+#elsewhere ul li.flickr {
+    background-position: 0 -136px;
+}
+#elsewhere ul li.foursquare {
+    background-position: 0 -170px;
+}
+#elsewhere ul li.google {
+    background-position: 0 -204px;
+}
+#elsewhere ul li.lastfm {
+    background-position: 0 -238px;
+}
+#elsewhere ul li.linkedin {
+    background-position: 0 -272px;
+}
+#elsewhere ul li.twitter {
+    background-position: 0 -306px;
+}
+#elsewhere ul li.youtube {
+    background-position: 0 -338px;
+}
+#elsewhere ul li.github {
+    background-position: 0 -372px;
+}
+#elsewhere ul li.head {
+    background-image: none;
+}
+#elsewhere ul li {
+    float: left;
+    margin: 4px;
+    padding: 0;
+    width: 24px;
 }
 
-.site .meta {
-  color: #aaa;
+#elsewhere ul li a {
+    display: block;
+    height: 24px;
+    width: 24px;
+}
+#elsewhere ul li:hover {
+    opacity: 0.75;
+}
+#elsewhere ul li a span {
+    display: inline-table;
+    text-indent: -9999px;
 }
 
-.site .footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
+a.url, a.url:link, a.url:visited, a.url:active, a.url:hover, .extra {
+    display: none;
 }
-
-.site .footer .contact {
-  float: left;
-  margin-right: 3em;
-}
-
-.site .footer .contact a {
-  color: #8085C1;
-}
-
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.site .footer .rss img {
-  border: 0;
-}
-
 /*****************************************************************************/
 /*
 /* Posts
 /*
 /*****************************************************************************/
 
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
 
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
-
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-.post pre code {
-  border: none;
-}
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
-}
 
 
 /*****************************************************************************/
@@ -239,4 +689,30 @@ ul.posts span {
     border: 1px solid #DDDDDD;
     float: left;
     margin: 4px;
+}
+
+
+
+
+
+
+
+/*
+  An easy way to zoom your entire layout in or out (as long as it's set in ems).
+  Just change the media queries to activate them.
+  Assuming your base font-size is 16:
+  - the first one zooms out by a factor of (16-2)/16 = 0.875
+  - the second one zooms in by a factor of (16+2)/16 = 1.125  
+*/
+
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: ($font-size + 2) / $em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: ($font-size - 2) / $em;
+  }
 }
