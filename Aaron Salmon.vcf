@@ -1,0 +1,22 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Salmon;Aaron;;;
+FN:Aaron Salmon
+ORG:Auraworks;
+EMAIL;type=INTERNET;type=WORK;type=pref:aaronusalmon@gmail.com
+TEL;type=WORK;type=pref:773-336-2872
+item1.ADR;type=WORK;type=pref:;;;Chicago;IL;60618;USA
+item1.X-ABADR:us
+X-AIM;type=HOME;type=pref:acidargyle
+item2.X-JABBER;type=pref:aaronusalmon@gmail.com
+item6.X-ABLabel:_$!<Work>!$_
+item7.X-ABRELATEDNAMES;type=pref:www.aaronsalmon.com
+item5.X-ABLabel:_$!<Other>!$_
+item6.X-ICQ;type=pref:8537803
+item7.X-ABLabel:website
+item8.X-ABRELATEDNAMES:www.auraworks.com
+item8.X-ABLabel:website
+item9.X-ABRELATEDNAMES:www.twitter.com/aaronsalmon
+item9.X-ABLabel:twitter
+X-ABUID:8A1DE4D3-ACE8-4E80-9310-2FCD6524B8CD\:ABPerson
+END:VCARD
