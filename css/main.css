@@ -1,15 +1,13 @@
 /*****************************************************************************/
 /*
-/* Variables
-/*
+  Variables
+*/
 /*****************************************************************************/
-/*****************************************************************************/
 /*
-/*  Frameless     <http://framelessgrid.com/>
-/*  by Joni Korpi     <http://jonikorpi.com/>
-/*  licensed under CC0  <http://creativecommons.org/publicdomain/zero/1.0/>
-/*
-/*****************************************************************************/
+  Frameless - http://framelessgrid.com
+    - by Joni Korpi - http://jonikorpi.com
+    - licensed under CC0 - http://creativecommons.org/publicdomain/zero/1.0
+*/
 .wrapper {
   width: 1152px;
   margin: 0 auto;
@@ -319,9 +317,10 @@
     width: 460px;
   }
 }
+/*****************************************************************************/
 /*
-  Margin, padding, and border resets
-  except for form elements
+  Consistency fixes & resets
+    - using http://necolas.github.com/normalize.css as a base
 */
 body, div,
 h1, h2, h3, h4, h5, h6,
@@ -333,10 +332,6 @@ article, aside, figure, footer, header, hgroup, menu, nav, section {
   border: 0;
 }
 
-/*
-  Consistency fixes
-  adopted from http://necolas.github.com/normalize.css/
-*/
 article, aside, details, figcaption, figure,
 footer, header, hgroup, nav, section, audio, canvas, video {
   display: block;
@@ -414,6 +409,7 @@ textarea {
   overflow: auto;
 }
 
+/*****************************************************************************/
 /*
   These are easy to forget
 */
@@ -459,9 +455,8 @@ body {
 
 /*****************************************************************************/
 /*
-/* normalize.css v2.1.2 | MIT License | git.io/normalize */
-/*
-/*****************************************************************************/
+  normalize.css v2.1.2 | MIT License | git.io/normalize
+*/
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block;
 }
@@ -541,7 +536,7 @@ q {
 }
 
 small {
-  font-size: 80%;
+  font-size: 60%;
 }
 
 sub, sup {
@@ -645,9 +640,8 @@ table {
 
 /*****************************************************************************/
 /*
-/* Base
-/*
-/*****************************************************************************/
+  Base
+*/
 * {
   margin: 0;
   padding: 0;
@@ -681,42 +675,55 @@ h1 {
 p {
   margin: 1em 0;
 }
+p.lead {
+  font-size: 1.1875em;
+  color: #666666;
+  margin: 0 0 1em;
+}
 
-a {
-  color: #00a;
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #d35b41;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #000;
-}
-
-a:visited {
-  color: #a0a;
+  text-decoration: underline;
 }
 
 /*****************************************************************************/
 /*
-/* Common
-/*
-/*****************************************************************************/
-.copyright {
-  font-size: 0.875em;
-  clear: both;
+  Common
+*/
+h1, h2, h3, h4 {
+  font-weight: 200;
 }
 
 h1 {
   font-size: 4.25em;
-  font-weight: 200;
   margin: 30px 0px;
 }
 
 h2 {
-  font-size: 1.75em;
+  font-size: 1.6875em;
+  margin: 30px 0px 15px;
+}
+
+h3 {
+  font-size: 1.5em;
   font-weight: 400;
   margin: 30px 0px;
+  color: #666666;
+}
+h3 span {
+  white-space: nowrap;
 }
 
 h4 {
+  font-size: 1.375em;
   margin: 20px 0px 5px;
 }
 
@@ -724,99 +731,73 @@ ol, ul {
   list-style: none outside none;
 }
 
-footer {
-  clear: both;
-  margin: 20px;
-}
-
 .img-circle {
   border-radius: 500px 500px 500px 500px;
   box-shadow: 0 0 0 8px #e0e0e0;
   max-width: 190px;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 #elsewhere ul {
   margin: 0 auto;
-  width: 97px;
+  width: 138px;
 }
 
 #elsewhere ul li {
-  background: url("/img/iconsYeaaa.png") no-repeat scroll left top transparent;
-}
-
-#elsewhere ul li.crunchbase {
-  background-position: 0 0;
-}
-
-#elsewhere ul li.facebook {
-  background-position: 0 -34px;
-}
-
-#elsewhere ul li.dribbble {
-  background-position: 0 -68px;
-}
-
-#elsewhere ul li.delicious {
-  background-position: 0 -102px;
-}
-
-#elsewhere ul li.flickr {
-  background-position: 0 -136px;
-}
-
-#elsewhere ul li.foursquare {
-  background-position: 0 -170px;
-}
-
-#elsewhere ul li.google {
-  background-position: 0 -204px;
-}
-
-#elsewhere ul li.lastfm {
-  background-position: 0 -238px;
-}
-
-#elsewhere ul li.linkedin {
-  background-position: 0 -272px;
-}
-
-#elsewhere ul li.twitter {
-  background-position: 0 -306px;
-}
-
-#elsewhere ul li.youtube {
-  background-position: 0 -338px;
-}
-
-#elsewhere ul li.github {
-  background-position: 0 -372px;
-}
-
-#elsewhere ul li.head {
-  background-image: none;
-}
-
-#elsewhere ul li {
+  background: url("/img/elsewhere_icons.png") no-repeat scroll left top transparent;
   float: left;
   margin: 4px;
   padding: 0;
-  width: 24px;
+  height: 38px;
+  width: 38px;
 }
-
+#elsewhere ul li.crunchbase {
+  background-position: -156px -105px;
+}
+#elsewhere ul li.dribbble {
+  background-position: -106px -105px;
+}
+#elsewhere ul li.facebook {
+  background-position: -56px -106px;
+}
+#elsewhere ul li.foursquare {
+  background-position: -6px -105px;
+}
+#elsewhere ul li.github {
+  background-position: -156px -55px;
+}
+#elsewhere ul li.googleplus {
+  background-position: -106px -55px;
+}
+#elsewhere ul li.instagram {
+  background-position: -56px -55px;
+}
+#elsewhere ul li.lastfm {
+  background-position: -6px -55px;
+}
+#elsewhere ul li.linkedin {
+  background-position: -156px -5px;
+}
+#elsewhere ul li.pinboard {
+  background-position: -106px -5px;
+}
+#elsewhere ul li.twitter {
+  background-position: -56px -5px;
+}
+#elsewhere ul li.youtube {
+  background-position: -6px -5px;
+}
 #elsewhere ul li a {
   display: block;
-  height: 24px;
-  width: 24px;
+  height: 38px;
+  width: 38px;
 }
-
-#elsewhere ul li:hover {
-  opacity: 0.75;
-}
-
 #elsewhere ul li a span {
   display: inline-table;
   text-indent: -9999px;
+}
+#elsewhere ul li:hover {
+  opacity: 0.75;
 }
 
 a.url, a.url:link, a.url:visited, a.url:active, a.url:hover, .extra {
@@ -825,26 +806,39 @@ a.url, a.url:link, a.url:visited, a.url:active, a.url:hover, .extra {
 
 /*****************************************************************************/
 /*
-/* Posts
-/*
+  Posts
+*/
 /*****************************************************************************/
+/*
+  Footer
+*/
+footer {
+  clear: both;
+  padding: 40px 0px 20px;
+}
+
+.copyright {
+  font-size: 0.875em;
+  clear: both;
+}
+
 /*****************************************************************************/
 /*
-/* Images
-/*
-/*****************************************************************************/
+  Images
+*/
 .images img {
   border: 1px solid #DDDDDD;
   float: left;
   margin: 4px;
 }
 
+/*****************************************************************************/
 /*
-  An easy way to zoom your entire layout in or out (as long as it's set in ems).
-  Just change the media queries to activate them.
-  Assuming your base font-size is 16:
-  - the first one zooms out by a factor of (16-2)/16 = 0.875
-  - the second one zooms in by a factor of (16+2)/16 = 1.125  
+  Text Zoom
+    An easy way to zoom your entire layout in or out (as long as it's set in ems).
+    Assuming your base font-size is 16:
+    - the first one zooms in by a factor of (16+2)/16 = 1.125
+    - the second one zooms out by a factor of (16-2)/16 = 0.875
 */
 @media screen and (min-width: 1200px) {
   body {
