@@ -1,3 +1,4 @@
+//  iOS viewport scaling bug fix - https://gist.github.com/mathiasbynens/901295 
 (function(doc) {
 
 	var addEvent = 'addEventListener',
