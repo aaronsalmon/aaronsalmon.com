@@ -1,4 +1,4 @@
-name: Aaron Salmon
+name: Aaron U. Salmon
 markdown: redcarpet
 pygments: true
 baseurl: /aaronsalmon.com
@@ -6,3 +6,29 @@ baseurl: /aaronsalmon.com
 sass:
     syntax: scss        # scss|sass
     style:  expanded  # nested|expanded|compact|compressed
+
+
+# Owner/author information
+owner:
+    name:         Aaron U Salmon
+    name_alt:     Aaron Salmon
+    name_first:   Aaron
+    avatar:       Aaron-Salmon.jpg
+    email:        aaronusalmon@gmail.com
+    birthday:     07/20/1975
+    tel:          773.336.2872
+    email:        aaronusalmon@gmail.com
+    email:        aaronusalmon@gmail.com
+    email:        aaronusalmon@gmail.com
+    twitter:      aaronsalmon
+    facebook:     aaronsalmon
+    github:       aaronsalmon
+    crunchbase:   aaron-salmon
+    linkedin:     aaronsalmon
+    instagram:    aaronsalmon
+    youtube:      aaronusalmon
+    foursquare:   aaronsalmon
+    pinboard:     aaronsalmon
+    dribbble:     aaronsalmon
+    lastfm:       AcidArgyle
+    googleplus:   116734310243264124449 # For Google Authorship https://plus.google.com/authorship
