@@ -1,3 +1,11 @@
+// variables
+@import 'variables';
+
+// import either semantic.gs or frameless
+@import 'semanticgrid';
+
+// consistency & resets
+@import 'resets';
 
 /*****************************************************************************/
 /*
@@ -181,6 +189,7 @@ footer {
 .copyright {
   font-size: ($font-size - 2) / $em;
   clear: both;
+  @include column(3);
 }
 
 /*****************************************************************************/

@@ -1,14 +1,14 @@
 // variables
-@import 'semanticgrid.scss';
+@import 'variables';
 
 // import either semantic.gs or frameless
-@import 'semanticgrid.scss';
+@import 'semanticgrid';
 
 // consistency & resets
-@import 'resets.scss';
+@import 'resets';
 
 // site specific css
-@import 'site.scss';
+@import 'site';
 
 
 /*****************************************************************************/
