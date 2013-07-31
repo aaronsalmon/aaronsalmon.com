@@ -566,6 +566,10 @@ ol, ul {
     list-style: none outside none;
 }
 
+.contact-info {
+  width: $cols3;
+  float: left;
+}
 .img-circle {
     border-radius: 500px 500px 500px 500px;
     box-shadow: 0 0 0 8px #e0e0e0;
@@ -644,7 +648,7 @@ ol, ul {
     opacity: 0.75;
   }
 }
-a.url, a.url:link, a.url:visited, a.url:active, a.url:hover, .extra {
+.extra {
     display: none;
 }
 
