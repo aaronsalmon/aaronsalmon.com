@@ -1,0 +1,195 @@
+
+/*****************************************************************************/
+/*
+  Base
+*/
+
+body {
+  font-size: ($font-size) / $em;
+  background-color: #FFF;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+p { 
+  margin: 1em 0; 
+  &.lead {
+    font-size: ($font-size + 3) / $em;
+    color: $med-gray;
+    margin: 0 0 1em;
+  }
+}
+
+a, 
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: $link-color;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*****************************************************************************/
+/*
+  Common
+*/
+
+h1, h2, h3, h4 {
+  font-weight: 200;
+}
+h1 {
+  font-size: ($font-size + 52) / $em;
+  margin: 30px 0px;
+}
+
+h2 {
+  font-size: ($font-size + 11) / $em;
+  margin: 30px 0px 15px;
+}
+
+h3 {
+  font-size: ($font-size + 8) / $em;
+  font-weight: 400;
+  margin: 30px 0px;
+  color: $med-gray;
+  span {
+    white-space: nowrap;
+  }
+}
+
+h4 {
+  font-size: ($font-size + 6) / $em;
+  margin: 20px 0px 5px;
+}
+
+ol, ul {
+    list-style: none outside none;
+}
+
+.contact-info {
+  float: left;
+  @include column(4);
+}
+.img-circle {
+    border-radius: 500px 500px 500px 500px;
+    box-shadow: 0 0 0 8px #e0e0e0;
+    max-width: 190px;
+    margin-top: 60px;
+}
+
+#elsewhere ul {
+    margin: 0 auto;
+    width: 138px;
+}
+#elsewhere ul li {
+  background: url("/img/elsewhere_icons.png") no-repeat scroll left top transparent;
+  float: left;
+  margin: 4px;
+  padding: 0;
+  height: 38px;
+  width: 38px;
+  &.crunchbase {
+    background-position: -156px -105px ;
+  }
+
+  &.dribbble {
+    background-position: -106px -105px ;
+  }
+
+  &.facebook {
+    background-position: -56px -106px ;
+  }
+
+  &.foursquare {
+    background-position: -6px -105px ;
+  }
+
+  &.github {
+    background-position: -156px -55px ;
+  }
+
+  &.googleplus {
+    background-position: -106px -55px ;
+  }
+
+  &.instagram {
+    background-position: -56px -55px ;
+  }
+
+  &.lastfm {
+    background-position: -6px -55px ;
+  }
+
+  &.linkedin {
+    background-position: -156px -5px ;
+  }
+
+  &.pinboard {
+    background-position: -106px -5px ;
+  }
+
+  &.twitter {
+    background-position: -56px -5px ;
+  }
+
+  &.youtube {
+    background-position: -6px -5px ;
+  }
+  a {
+    display: block;
+    height: 38px;
+    width: 38px;
+    span {
+      display: inline-table;
+      text-indent: -9999px;
+    }
+  }
+  &:hover {
+    opacity: 0.75;
+  }
+}
+.extra {
+    display: none;
+}
+
+/*****************************************************************************/
+/*
+  Posts
+*/
+
+
+
+/*****************************************************************************/
+/*
+  Footer
+*/
+
+footer {
+  clear: both;
+  padding: 40px 0px 20px;
+}
+
+
+.copyright {
+  font-size: ($font-size - 2) / $em;
+  clear: both;
+}
+
+/*****************************************************************************/
+/*
+  Images
+*/
+
+.images img {
+    border: 1px solid #DDDDDD;
+    float: left;
+    margin: 4px;
+}
