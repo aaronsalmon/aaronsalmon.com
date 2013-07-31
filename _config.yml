@@ -7,7 +7,6 @@ sass:
     syntax: scss        # scss|sass
     style:  expanded  # nested|expanded|compact|compressed
 
-
 # Owner/author information
 owner:
     name:         Aaron U Salmon

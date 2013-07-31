@@ -82,10 +82,12 @@ ol, ul {
     list-style: none outside none;
 }
 
-.contact-info {
-  float: left;
+#contact-info,
+#handsome,
+#elsewhere {
   @include column(4);
 }
+
 .img-circle {
     border-radius: 500px 500px 500px 500px;
     box-shadow: 0 0 0 8px #e0e0e0;
@@ -189,7 +191,7 @@ footer {
 .copyright {
   font-size: ($font-size - 2) / $em;
   clear: both;
-  @include column(3);
+  @include column(12);
 }
 
 /*****************************************************************************/
@@ -201,4 +203,13 @@ footer {
     border: 1px solid #DDDDDD;
     float: left;
     margin: 4px;
+}
+
+
+@media screen and (max-width: 660px) {
+  #contact-info,
+  #handsome,
+  #elsewhere {
+    @include column(12);
+  }
 }
