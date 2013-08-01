@@ -57,6 +57,7 @@ h1, h2, h3, h4 {
 h1 {
   font-size: ($font-size + 52) / $em;
   margin: 30px 0px;
+  line-height: 1.2em;
 }
 
 h2 {
@@ -97,8 +98,11 @@ ol, ul {
 .img-circle {
     border-radius: 500px 500px 500px 500px;
     box-shadow: 0 0 0 8px #e0e0e0;
-    max-width: 190px;
-    margin-top: 60px;
+    max-width: 260px;
+    min-width: 190px;
+    margin-top: 46px;
+    width: 70%;
+    height: 70%;
 }
 
 #elsewhere ul {
@@ -219,10 +223,25 @@ footer {
   body {
     font-size: ($font-size + 2) / $em;
   }
+  .container .vcard {
+    #elsewhere {
+      @include column(3);
+      @include pull(1);
+    }
+    #contact-info {
+      @include column(3);
+      @include push(1);
+    }
+  }
+  h3 {
+    @include column(10);
+    @include push(1);
+    margin-bottom: 1.5em;
+  }
 }
 
 @media screen and (max-width: 600px) {
   body {
-    font-size: ($font-size - 2) / $em;
+    font-size: ($font-size - 1) / $em;
   }
 }
