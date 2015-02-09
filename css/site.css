@@ -663,15 +663,8 @@ footer {
     font-size: 1.125em;
   }
 
+
   /* line 227, /Users/admin/git/aaronsalmon.com/css/site.scss */
-  .container .vcard #elsewhere {
-    display: inline;
-    float: left;
-    width: 22.22222%;
-    margin: 0 1.38889%;
-    margin-right: 9.72222%;
-  }
-  /* line 231, /Users/admin/git/aaronsalmon.com/css/site.scss */
   .container .vcard #contact-info {
     display: inline;
     float: left;
