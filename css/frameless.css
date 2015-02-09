@@ -4,12 +4,14 @@
     - by Joni Korpi - http://jonikorpi.com
     - licensed under CC0 - http://creativecommons.org/publicdomain/zero/1.0
 */
+/* line 44, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
 .wrapper {
   width: 1152px;
   margin: 0 auto;
   padding: 0;
 }
 
+/* line 49, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
 .col {
   display: inline;
   float: left;
@@ -17,79 +19,97 @@
   margin-right: 12px;
 }
 
+/* line 56, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
 .col1 {
   width: 3em;
 }
 
+/* line 57, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
 .col2 {
   width: 7.5em;
 }
 
+/* line 58, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
 .col3 {
   width: 12em;
 }
 
+/* line 59, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
 .col4 {
   width: 16.5em;
 }
 
+/* line 60, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
 .col5 {
   width: 21em;
 }
 
+/* line 61, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
 .col6 {
   width: 25.5em;
 }
 
+/* line 62, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
 .col7 {
   width: 30em;
 }
 
+/* line 63, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
 .col8 {
   width: 34.5em;
 }
 
+/* line 64, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
 .col9 {
   width: 39em;
 }
 
+/* line 65, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
 .col10 {
   width: 43.5em;
 }
 
+/* line 66, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
 .col11 {
   width: 48em;
 }
 
+/* line 67, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
 .col12 {
   width: 52.5em;
 }
 
 /* Defaults for showing/hiding divs based on screen size */
+/* line 71, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
 .show-default, .show-tablet, .show-mobile-wide, .show-mobile {
   display: none !important;
 }
 
+/* line 72, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
 .hide-default, .hide-tablet, .hide-mobile-wide, .hide-mobile {
   display: block !important;
 }
 
 /* Default Layout */
 @media only screen and (min-width: 1040px) {
+  /* line 83, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .show-default {
     display: block !important;
   }
 
+  /* line 84, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .hide-default {
     display: none !important;
   }
 
+  /* line 86, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper {
     width: 1020px;
     margin: 0 auto;
     padding: 0;
   }
 
+  /* line 105, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .col {
     display: inline;
     float: left;
@@ -97,59 +117,75 @@
     margin-right: 10px;
   }
 
+  /* line 113, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col1 {
     width: 65px;
   }
+  /* line 114, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col2 {
     width: 150px;
   }
+  /* line 115, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col3 {
     width: 235px;
   }
+  /* line 116, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col4 {
     width: 320px;
   }
+  /* line 117, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col5 {
     width: 405px;
   }
+  /* line 118, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col6 {
     width: 490px;
   }
+  /* line 119, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col7 {
     width: 575px;
   }
+  /* line 120, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col8 {
     width: 660px;
   }
+  /* line 121, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col9 {
     width: 745px;
   }
+  /* line 122, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col10 {
     width: 830px;
   }
+  /* line 123, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col11 {
     width: 915px;
   }
+  /* line 124, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col12 {
     width: 1000px;
   }
 }
 /* Tablet Layout */
 @media only screen and (min-width: 768px) and (max-width: 1039px) {
+  /* line 140, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .show-tablet {
     display: block !important;
   }
 
+  /* line 141, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .hide-tablet {
     display: none !important;
   }
 
+  /* line 143, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper {
     width: 720px;
     margin: 0 auto;
     padding: 0;
   }
 
+  /* line 162, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .col {
     display: inline;
     float: left;
@@ -157,59 +193,75 @@
     margin-right: 10px;
   }
 
+  /* line 170, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col1 {
     width: 40px;
   }
+  /* line 171, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col2 {
     width: 100px;
   }
+  /* line 172, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col3 {
     width: 160px;
   }
+  /* line 173, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col4 {
     width: 220px;
   }
+  /* line 174, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col5 {
     width: 280px;
   }
+  /* line 175, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col6 {
     width: 340px;
   }
+  /* line 176, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col7 {
     width: 400px;
   }
+  /* line 177, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col8 {
     width: 460px;
   }
+  /* line 178, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col9 {
     width: 520px;
   }
+  /* line 179, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col10 {
     width: 580px;
   }
+  /* line 180, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col11 {
     width: 640px;
   }
+  /* line 181, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col12 {
     width: 700px;
   }
 }
 /* Mobile Layout */
 @media only screen and (max-width: 767px) {
+  /* line 195, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .show-mobile {
     display: block !important;
   }
 
+  /* line 196, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .hide-mobile {
     display: none !important;
   }
 
+  /* line 198, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper {
     width: 312px;
     margin: 0 auto;
     padding: 0;
   }
 
+  /* line 217, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .col {
     display: inline;
     float: left;
@@ -217,58 +269,74 @@
     margin-right: 10px;
   }
 
+  /* line 225, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col1 {
     width: 84px;
   }
+  /* line 226, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col2 {
     width: 292px;
   }
+  /* line 227, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col3 {
     width: 292px;
   }
+  /* line 228, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col4 {
     width: 292px;
   }
+  /* line 229, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col5 {
     width: 292px;
   }
+  /* line 230, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col6 {
     width: 292px;
   }
+  /* line 231, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col7 {
     width: 292px;
   }
+  /* line 232, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col8 {
     width: 292px;
   }
+  /* line 233, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col9 {
     width: 292px;
   }
+  /* line 234, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col10 {
     width: 292px;
   }
+  /* line 235, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col11 {
     width: 292px;
   }
+  /* line 236, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col12 {
     width: 292px;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 246, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .show-mobile-wide {
     display: block !important;
   }
 
+  /* line 247, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .hide-mobile-wide {
     display: none !important;
   }
 
+  /* line 249, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper {
     width: 480px;
     margin: 0 auto;
     padding: 0;
   }
 
+  /* line 268, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .col {
     display: inline;
     float: left;
@@ -276,39 +344,51 @@
     margin-right: 10px;
   }
 
+  /* line 276, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col1 {
     width: 60px;
   }
+  /* line 277, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col2 {
     width: 140px;
   }
+  /* line 278, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col3 {
     width: 220px;
   }
+  /* line 279, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col4 {
     width: 460px;
   }
+  /* line 280, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col5 {
     width: 460px;
   }
+  /* line 281, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col6 {
     width: 460px;
   }
+  /* line 282, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col7 {
     width: 460px;
   }
+  /* line 283, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col8 {
     width: 460px;
   }
+  /* line 284, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col9 {
     width: 460px;
   }
+  /* line 285, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col10 {
     width: 460px;
   }
+  /* line 286, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col11 {
     width: 460px;
   }
+  /* line 287, /Users/admin/git/aaronsalmon.com/css/frameless.scss */
   .wrapper .col12 {
     width: 460px;
   }
