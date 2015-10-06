@@ -511,12 +511,16 @@ ol, ul {
   width: 30.55556%;
   margin: 0 1.38889%;
 }
-/* line 96, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 95, /Users/admin/git/aaronsalmon.com/css/site.scss */
+.container .vcard #handsome {
+  height: 300px;
+}
+/* line 99, /Users/admin/git/aaronsalmon.com/css/site.scss */
 .container section {
   max-width: 1200px;
   margin: 0 auto;
 }
-/* line 100, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 103, /Users/admin/git/aaronsalmon.com/css/site.scss */
 .container #civic,
 .container #history {
   display: inline;
@@ -525,7 +529,7 @@ ol, ul {
   margin: 0 1.38889%;
 }
 
-/* line 106, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 109, /Users/admin/git/aaronsalmon.com/css/site.scss */
 .img-circle {
   border-radius: 500px 500px 500px 500px;
   box-shadow: 0 0 0 8px #e0e0e0;
@@ -534,13 +538,13 @@ ol, ul {
   margin-top: 46px;
 }
 
-/* line 114, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 117, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #elsewhere ul {
   margin: 0 auto;
   width: 138px;
 }
 
-/* line 119, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 122, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #elsewhere ul li {
   background: url("/img/elsewhere_icons.png") no-repeat scroll left top transparent;
   float: left;
@@ -549,79 +553,79 @@ ol, ul {
   height: 38px;
   width: 38px;
 }
-/* line 126, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 129, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #elsewhere ul li.crunchbase {
   background-position: -156px -105px;
 }
-/* line 129, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 132, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #elsewhere ul li.dribbble {
   background-position: -106px -105px;
 }
-/* line 132, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 135, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #elsewhere ul li.facebook {
   background-position: -56px -106px;
 }
-/* line 135, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 138, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #elsewhere ul li.foursquare {
   background-position: -6px -105px;
 }
-/* line 138, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 141, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #elsewhere ul li.github {
   background-position: -156px -55px;
 }
-/* line 141, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 144, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #elsewhere ul li.googleplus {
   background-position: -106px -55px;
 }
-/* line 144, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 147, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #elsewhere ul li.instagram {
   background-position: -56px -55px;
 }
-/* line 147, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 150, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #elsewhere ul li.lastfm {
   background-position: -6px -55px;
 }
-/* line 150, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 153, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #elsewhere ul li.linkedin {
   background-position: -156px -5px;
 }
-/* line 153, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 156, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #elsewhere ul li.pinboard {
   background-position: -106px -5px;
 }
-/* line 156, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 159, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #elsewhere ul li.twitter {
   background-position: -56px -5px;
 }
-/* line 159, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 162, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #elsewhere ul li.youtube {
   background-position: -6px -5px;
 }
-/* line 162, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 165, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #elsewhere ul li a {
   display: block;
   height: 38px;
   width: 38px;
 }
-/* line 166, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 169, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #elsewhere ul li a span {
   display: inline-table;
   text-indent: -9999px;
 }
-/* line 171, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 174, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #elsewhere ul li:hover {
   opacity: 0.75;
 }
 
-/* line 177, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 180, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #civic ul {
   padding: 20px 0;
 }
-/* line 179, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 182, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #civic ul li {
   padding: 4px 0;
 }
-/* line 183, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 186, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #civic h4 {
   display: inline;
   float: left;
@@ -632,26 +636,26 @@ ol, ul {
   padding: 10px 0 40px;
 }
 
-/* line 190, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 193, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #history ul {
   padding-top: 10px;
 }
-/* line 192, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 195, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #history ul li {
   padding: 4px 0;
 }
-/* line 194, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 197, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #history ul li em {
   color: #777;
   padding-left: 6px;
 }
 
-/* line 201, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 204, /Users/admin/git/aaronsalmon.com/css/site.scss */
 .extra {
   display: none;
 }
 
-/* line 205, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 208, /Users/admin/git/aaronsalmon.com/css/site.scss */
 .images img {
   border: 1px solid #DDDDDD;
   float: left;
@@ -659,58 +663,58 @@ ol, ul {
 }
 
 @keyframes cf4FadeInOut {
-  /* line 213, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 216, /Users/admin/git/aaronsalmon.com/css/site.scss */
   0% {
     opacity: 1;
   }
 
-  /* line 216, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 219, /Users/admin/git/aaronsalmon.com/css/site.scss */
   17% {
     opacity: 1;
   }
 
-  /* line 219, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 222, /Users/admin/git/aaronsalmon.com/css/site.scss */
   25% {
     opacity: 0;
   }
 
-  /* line 222, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 225, /Users/admin/git/aaronsalmon.com/css/site.scss */
   92% {
     opacity: 0;
   }
 
-  /* line 225, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 228, /Users/admin/git/aaronsalmon.com/css/site.scss */
   100% {
     opacity: 1;
   }
 }
 @keyframes cf4FadeInOut {
-  /* line 230, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 233, /Users/admin/git/aaronsalmon.com/css/site.scss */
   0% {
     opacity: 1;
   }
 
-  /* line 233, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 236, /Users/admin/git/aaronsalmon.com/css/site.scss */
   17% {
     opacity: 1;
   }
 
-  /* line 236, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 239, /Users/admin/git/aaronsalmon.com/css/site.scss */
   25% {
     opacity: 0;
   }
 
-  /* line 239, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 242, /Users/admin/git/aaronsalmon.com/css/site.scss */
   92% {
     opacity: 0;
   }
 
-  /* line 242, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 245, /Users/admin/git/aaronsalmon.com/css/site.scss */
   100% {
     opacity: 1;
   }
 }
-/* line 246, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 249, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #cf4a {
   height: 190px;
   margin: 0 auto;
@@ -718,13 +722,13 @@ ol, ul {
   width: 215px;
 }
 
-/* line 252, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 255, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #cf4a img {
   left: 0;
   position: absolute;
 }
 
-/* line 256, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 259, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #cf4a img {
   animation-duration: 16s;
   animation-iteration-count: infinite;
@@ -732,17 +736,17 @@ ol, ul {
   animation-timing-function: ease-in-out;
 }
 
-/* line 262, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 265, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #cf4a img:nth-of-type(1) {
   animation-delay: 12s;
 }
 
-/* line 265, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 268, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #cf4a img:nth-of-type(2) {
   animation-delay: 8s;
 }
 
-/* line 268, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 271, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #cf4a img:nth-of-type(3) {
   animation-delay: 4s;
 }
@@ -751,13 +755,13 @@ ol, ul {
 /*
   Footer
 */
-/* line 279, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 282, /Users/admin/git/aaronsalmon.com/css/site.scss */
 footer {
   clear: both;
   padding: 40px 0px 20px;
 }
 
-/* line 284, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 287, /Users/admin/git/aaronsalmon.com/css/site.scss */
 .copyright {
   font-size: 0.875em;
   clear: both;
@@ -773,11 +777,12 @@ footer {
   Responsive beyond fluid
 */
 @media screen and (max-width: 660px) {
-  /* line 298, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 301, /Users/admin/git/aaronsalmon.com/css/site.scss */
   .container .vcard #contact-info,
   .container .vcard #handsome,
   .container .vcard #elsewhere,
   .container .vcard #civic,
+  .container .vcard #civic h4,
   .container .vcard .vcard,
   .container .vcard #history,
   .container .vcard h3,
@@ -797,12 +802,12 @@ footer {
     - the second one zooms out by a factor of (16-2)/16 = 0.875
 */
 @media screen and (min-width: 1200px) {
-  /* line 321, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 325, /Users/admin/git/aaronsalmon.com/css/site.scss */
   body {
     font-size: 1.125em;
   }
 
-  /* line 325, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 329, /Users/admin/git/aaronsalmon.com/css/site.scss */
   .container .vcard #elsewhere {
     display: inline;
     float: left;
@@ -810,7 +815,7 @@ footer {
     margin: 0 1.38889%;
     margin-right: 9.72222%;
   }
-  /* line 329, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 333, /Users/admin/git/aaronsalmon.com/css/site.scss */
   .container .vcard #contact-info {
     display: inline;
     float: left;
@@ -819,7 +824,7 @@ footer {
     margin-left: 9.72222%;
   }
 
-  /* line 334, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 338, /Users/admin/git/aaronsalmon.com/css/site.scss */
   h3 {
     display: inline;
     float: left;
@@ -830,7 +835,7 @@ footer {
   }
 }
 @media screen and (max-width: 600px) {
-  /* line 342, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 346, /Users/admin/git/aaronsalmon.com/css/site.scss */
   body {
     font-size: 0.9375em;
   }
