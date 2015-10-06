@@ -92,6 +92,9 @@ ol, ul {
     #elsewhere {
       @include column(4,12);
     }
+    #handsome {
+      height: 300px;
+    }
   }
   section {
     max-width: 1200px;
@@ -299,6 +302,7 @@ footer {
     #handsome,
     #elsewhere,
     #civic,
+    #civic h4,
     .vcard,
     #history,
     h3,
