@@ -93,16 +93,22 @@ ol, ul {
       @include column(4,12);
     }
   }
+  section {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  #civic,
+  #history {
+    @include column(12);
+  }
 }
 
 .img-circle {
     border-radius: 500px 500px 500px 500px;
     box-shadow: 0 0 0 8px #e0e0e0;
     max-width: 260px;
-    min-width: 190px;
+    min-width: 230px;
     margin-top: 46px;
-    width: 70%;
-    height: 70%;
 }
 
 #elsewhere ul {
@@ -167,6 +173,31 @@ ol, ul {
   }
 }
 
+#civic {
+  ul {
+    padding: 20px 0;
+    li {
+      padding: 4px 0;
+    }
+  }
+  h4 {
+    @include column(10);
+    @include pull(1);
+    @include push(1);
+    padding: 10px 0 40px;
+  }
+}
+#history ul {
+  padding-top: 10px;
+  li {
+    padding: 4px 0;
+    em {
+      color: #777;
+      padding-left: 6px;
+    }
+  }
+}
+
 .extra {
     display: none;
 }
@@ -178,6 +209,67 @@ ol, ul {
 }
 
 
+@keyframes cf4FadeInOut {
+0% {
+    opacity: 1;
+}
+17% {
+    opacity: 1;
+}
+25% {
+    opacity: 0;
+}
+92% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+@keyframes cf4FadeInOut {
+0% {
+    opacity: 1;
+}
+17% {
+    opacity: 1;
+}
+25% {
+    opacity: 0;
+}
+92% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+#cf4a {
+    height: 190px;
+    margin: 0 auto;
+    position: relative;
+    width: 215px;
+}
+#cf4a img {
+    left: 0;
+    position: absolute;
+}
+#cf4a img {
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-name: cf4FadeInOut;
+    animation-timing-function: ease-in-out;
+}
+#cf4a img:nth-of-type(1) {
+    animation-delay: 12s;
+}
+#cf4a img:nth-of-type(2) {
+    animation-delay: 8s;
+}
+#cf4a img:nth-of-type(3) {
+    animation-delay: 4s;
+}
+#cf4a img:nth-of-type(4) {
+}
 
 /*****************************************************************************/
 /*
@@ -192,6 +284,7 @@ footer {
 .copyright {
   font-size: ($font-size - 2) / $em;
   clear: both;
+  color: #777;
   @include column(12);
 }
 
@@ -204,8 +297,13 @@ footer {
   .container .vcard {
     #contact-info,
     #handsome,
-    #elsewhere {
-      @include column(12, 12);
+    #elsewhere,
+    #civic,
+    .vcard,
+    #history,
+    h3,
+    h4 {
+      @include column(12);
     }
   }
 }

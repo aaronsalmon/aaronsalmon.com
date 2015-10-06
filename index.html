@@ -13,7 +13,9 @@ tags: site
   </ul>
 </div>
 -->
-<p class="lead">Art Director &amp; User Experience Engineer</p>
+
+<h2>Art Director &amp; User Experience Engineer</h2>
+
 <h3>
 "Professionalism begets colleaguery, that spirit of mutual support and collective identity that contributes so potently to creative exchange and the sense of progress. It's my responsibility to engender this spirit by setting an amiable, stimulating, creative and professional example." <span>- Yuri Rasovsky</span>
 </h3>
@@ -23,12 +25,23 @@ tags: site
     {% include contactinfo.html %}
   </div>
   <div id="handsome">
-    {% if site.owner.avatar %}
-      <img width="190" height="190" class="img-circle span3" alt="Aaron Salmon" src="img/{{ site.owner.avatar }}">
+    {% if site.owner.avatar1 %}
+    <div class="shadow" id="cf4a">
+      <img width="230" height="230" class="img-circle span3" alt="Aaron Salmon" src="img/{{ site.owner.avatar1 }}">
+      <img width="230" height="230" class="img-circle span3" alt="Aaron Salmon" src="img/{{ site.owner.avatar2 }}">
+      <img width="230" height="230" class="img-circle span3" alt="Aaron Salmon" src="img/{{ site.owner.avatar3 }}">
+      <img width="230" height="230" class="img-circle span3" alt="Aaron Salmon" src="img/{{ site.owner.avatar4 }}">
+		</div>
     {% endif %}
   </div>
   <div id="elsewhere">
   	{% include elsewhere.html %}
+  </div>
+   <div id="history">
+  	{% include history.html %}
+  </div>
+   <div id="civic">
+  	{% include civic.html %}
   </div>
 </div>
 
