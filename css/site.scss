@@ -109,8 +109,6 @@ ol, ul {
 .img-circle {
     border-radius: 500px 500px 500px 500px;
     box-shadow: 0 0 0 8px #e0e0e0;
-    max-width: 260px;
-    min-width: 230px;
     margin-top: 46px;
 }
 
@@ -196,6 +194,7 @@ ol, ul {
     padding: 4px 0;
     em {
       color: #777;
+      display: inline;
       padding-left: 6px;
     }
   }
@@ -211,69 +210,97 @@ ol, ul {
     margin: 4px;
 }
 
+@-webkit-keyframes crossfadeFadeInOut {
+ 0% { opacity:1; }
+ 17% { opacity:1; }
+ 25% { opacity:0; }
+ 92% { opacity:0; }
+ 100% { opacity:1; }
+}
 
-@keyframes cf4FadeInOut {
-0% {
-    opacity: 1;
+@-moz-keyframes crossfadeFadeInOut {
+ 0% { opacity:1; }
+ 17% { opacity:1; }
+ 25% { opacity:0; }
+ 92% { opacity:0; }
+ 100% { opacity:1; }
 }
-17% {
-    opacity: 1;
+
+@-o-keyframes crossfadeFadeInOut {
+ 0% { opacity:1; }
+ 17% { opacity:1; }
+ 25% { opacity:0; }
+ 92% { opacity:0; }
+ 100% { opacity:1; }
 }
-25% {
-    opacity: 0;
+
+@keyframes crossfadeFadeInOut {
+ 0% { opacity:1; }
+ 17% { opacity:1; }
+ 25% { opacity:0; }
+ 92% { opacity:0; }
+ 100% { opacity:1; }
 }
-92% {
-    opacity: 0;
-}
-100% {
-    opacity: 1;
-}
-}
-@keyframes cf4FadeInOut {
-0% {
-    opacity: 1;
-}
-17% {
-    opacity: 1;
-}
-25% {
-    opacity: 0;
-}
-92% {
-    opacity: 0;
-}
-100% {
-    opacity: 1;
-}
-}
-#cf4a {
-    height: 190px;
-    margin: 0 auto;
-    position: relative;
-    width: 215px;
-}
-#cf4a img {
-    left: 0;
-    position: absolute;
-}
-#cf4a img {
-    animation-duration: 16s;
-    animation-iteration-count: infinite;
-    animation-name: cf4FadeInOut;
+#crossfade {
+  height: 230px;
+  margin: 0 auto;
+  position: relative;
+  width: 230px;
+  img {
+    position:absolute;
+    left:0;
+
+    -webkit-animation-name: crossfadeFadeInOut;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 26s;
+
+    -moz-animation-name: crossfadeFadeInOut;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-duration: 26s;
+
+    -o-animation-name: crossfadeFadeInOut;
+    -o-animation-timing-function: ease-in-out;
+    -o-animation-iteration-count: infinite;
+    -o-animation-duration: 26s;
+
+    animation-name: crossfadeFadeInOut;
     animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 26s;
+    &:nth-of-type(1) {
+      -webkit-animation-delay: 20s;
+      -moz-animation-delay: 20s;
+      -o-animation-delay: 20s;
+      animation-delay: 20s;
+    }
+    &:nth-of-type(2) {
+      -webkit-animation-delay: 15s;
+      -moz-animation-delay: 15s;
+      -o-animation-delay: 15s;
+      animation-delay: 15s;
+    }
+    &:nth-of-type(3) {
+      -webkit-animation-delay: 10s;
+      -moz-animation-delay: 10s;
+      -o-animation-delay: 10s;
+      animation-delay: 10s;
+    }
+    &:nth-of-type(4) {
+      -webkit-animation-delay: 5s;
+      -moz-animation-delay: 5s;
+      -o-animation-delay: 5s;
+      animation-delay: 5s;
+    }
+    &:nth-of-type(5) {
+      -webkit-animation-delay: 0;
+      -moz-animation-delay: 0;
+      -o-animation-delay: 0;
+      animation-delay: 0;
+    }
+  }
 }
-#cf4a img:nth-of-type(1) {
-    animation-delay: 12s;
-}
-#cf4a img:nth-of-type(2) {
-    animation-delay: 8s;
-}
-#cf4a img:nth-of-type(3) {
-    animation-delay: 4s;
-}
-#cf4a img:nth-of-type(4) {
-}
-
 /*****************************************************************************/
 /*
   Footer
@@ -308,6 +335,14 @@ footer {
     h3,
     h4 {
       @include column(12);
+    }
+  }
+  #history ul {
+    li {
+      em {
+        display: block;
+        padding-left: 0px;
+      }
     }
   }
 }
