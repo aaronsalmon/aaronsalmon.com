@@ -662,105 +662,69 @@ ol, ul {
 }
 
 @-webkit-keyframes crossfadeFadeInOut {
-  /* line 214, /Users/admin/git/aaronsalmon.com/css/site.scss */
   0% {
     opacity: 1;
   }
-
-  /* line 215, /Users/admin/git/aaronsalmon.com/css/site.scss */
   17% {
     opacity: 1;
   }
-
-  /* line 216, /Users/admin/git/aaronsalmon.com/css/site.scss */
   25% {
     opacity: 0;
   }
-
-  /* line 217, /Users/admin/git/aaronsalmon.com/css/site.scss */
   92% {
     opacity: 0;
   }
-
-  /* line 218, /Users/admin/git/aaronsalmon.com/css/site.scss */
   100% {
     opacity: 1;
   }
 }
 @-moz-keyframes crossfadeFadeInOut {
-  /* line 222, /Users/admin/git/aaronsalmon.com/css/site.scss */
   0% {
     opacity: 1;
   }
-
-  /* line 223, /Users/admin/git/aaronsalmon.com/css/site.scss */
   17% {
     opacity: 1;
   }
-
-  /* line 224, /Users/admin/git/aaronsalmon.com/css/site.scss */
   25% {
     opacity: 0;
   }
-
-  /* line 225, /Users/admin/git/aaronsalmon.com/css/site.scss */
   92% {
     opacity: 0;
   }
-
-  /* line 226, /Users/admin/git/aaronsalmon.com/css/site.scss */
   100% {
     opacity: 1;
   }
 }
 @-o-keyframes crossfadeFadeInOut {
-  /* line 230, /Users/admin/git/aaronsalmon.com/css/site.scss */
   0% {
     opacity: 1;
   }
-
-  /* line 231, /Users/admin/git/aaronsalmon.com/css/site.scss */
   17% {
     opacity: 1;
   }
-
-  /* line 232, /Users/admin/git/aaronsalmon.com/css/site.scss */
   25% {
     opacity: 0;
   }
-
-  /* line 233, /Users/admin/git/aaronsalmon.com/css/site.scss */
   92% {
     opacity: 0;
   }
-
-  /* line 234, /Users/admin/git/aaronsalmon.com/css/site.scss */
   100% {
     opacity: 1;
   }
 }
 @keyframes crossfadeFadeInOut {
-  /* line 238, /Users/admin/git/aaronsalmon.com/css/site.scss */
   0% {
     opacity: 1;
   }
-
-  /* line 239, /Users/admin/git/aaronsalmon.com/css/site.scss */
   17% {
     opacity: 1;
   }
-
-  /* line 240, /Users/admin/git/aaronsalmon.com/css/site.scss */
   25% {
     opacity: 0;
   }
-
-  /* line 241, /Users/admin/git/aaronsalmon.com/css/site.scss */
   92% {
     opacity: 0;
   }
-
-  /* line 242, /Users/admin/git/aaronsalmon.com/css/site.scss */
   100% {
     opacity: 1;
   }
