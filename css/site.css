@@ -532,7 +532,7 @@ ol, ul {
 /* line 109, /Users/admin/git/aaronsalmon.com/css/site.scss */
 .img-circle {
   border-radius: 500px 500px 500px 500px;
-  box-shadow: 0 0 0 8px #e0e0e0;
+  box-shadow: 0 0 0 5px #e0e0e0;
   margin-top: 46px;
 }
 
@@ -635,26 +635,29 @@ ol, ul {
 }
 
 /* line 191, /Users/admin/git/aaronsalmon.com/css/site.scss */
-#history ul {
+#history ul,
+#civic ul {
   padding-top: 10px;
 }
-/* line 193, /Users/admin/git/aaronsalmon.com/css/site.scss */
-#history ul li {
+/* line 194, /Users/admin/git/aaronsalmon.com/css/site.scss */
+#history ul li,
+#civic ul li {
   padding: 4px 0;
 }
-/* line 195, /Users/admin/git/aaronsalmon.com/css/site.scss */
-#history ul li em {
+/* line 196, /Users/admin/git/aaronsalmon.com/css/site.scss */
+#history ul li em,
+#civic ul li em {
   color: #777;
   display: inline;
   padding-left: 6px;
 }
 
-/* line 203, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 204, /Users/admin/git/aaronsalmon.com/css/site.scss */
 .extra {
   display: none;
 }
 
-/* line 207, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 208, /Users/admin/git/aaronsalmon.com/css/site.scss */
 .images img {
   border: 1px solid #DDDDDD;
   float: left;
@@ -729,14 +732,14 @@ ol, ul {
     opacity: 1;
   }
 }
-/* line 244, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 245, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #crossfade {
   height: 230px;
   margin: 0 auto;
   position: relative;
   width: 230px;
 }
-/* line 249, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 250, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #crossfade img {
   position: absolute;
   left: 0;
@@ -757,35 +760,35 @@ ol, ul {
   animation-iteration-count: infinite;
   animation-duration: 26s;
 }
-/* line 272, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 273, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #crossfade img:nth-of-type(1) {
   -webkit-animation-delay: 20s;
   -moz-animation-delay: 20s;
   -o-animation-delay: 20s;
   animation-delay: 20s;
 }
-/* line 278, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 279, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #crossfade img:nth-of-type(2) {
   -webkit-animation-delay: 15s;
   -moz-animation-delay: 15s;
   -o-animation-delay: 15s;
   animation-delay: 15s;
 }
-/* line 284, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 285, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #crossfade img:nth-of-type(3) {
   -webkit-animation-delay: 10s;
   -moz-animation-delay: 10s;
   -o-animation-delay: 10s;
   animation-delay: 10s;
 }
-/* line 290, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 291, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #crossfade img:nth-of-type(4) {
   -webkit-animation-delay: 5s;
   -moz-animation-delay: 5s;
   -o-animation-delay: 5s;
   animation-delay: 5s;
 }
-/* line 296, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 297, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #crossfade img:nth-of-type(5) {
   -webkit-animation-delay: 0;
   -moz-animation-delay: 0;
@@ -797,13 +800,13 @@ ol, ul {
 /*
   Footer
 */
-/* line 309, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 310, /Users/admin/git/aaronsalmon.com/css/site.scss */
 footer {
   clear: both;
   padding: 40px 0px 20px;
 }
 
-/* line 314, /Users/admin/git/aaronsalmon.com/css/site.scss */
+/* line 315, /Users/admin/git/aaronsalmon.com/css/site.scss */
 .copyright {
   font-size: 0.875em;
   clear: both;
@@ -819,7 +822,7 @@ footer {
   Responsive beyond fluid
 */
 @media screen and (max-width: 660px) {
-  /* line 328, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 329, /Users/admin/git/aaronsalmon.com/css/site.scss */
   .container .vcard #contact-info,
   .container .vcard #handsome,
   .container .vcard #elsewhere,
@@ -835,7 +838,7 @@ footer {
     margin: 0 1.38889%;
   }
 
-  /* line 342, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 343, /Users/admin/git/aaronsalmon.com/css/site.scss */
   #history ul li em {
     display: block;
     padding-left: 0px;
@@ -850,12 +853,12 @@ footer {
     - the second one zooms out by a factor of (16-2)/16 = 0.875
 */
 @media screen and (min-width: 1200px) {
-  /* line 360, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 361, /Users/admin/git/aaronsalmon.com/css/site.scss */
   body {
     font-size: 1.125em;
   }
 
-  /* line 364, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 365, /Users/admin/git/aaronsalmon.com/css/site.scss */
   .container .vcard #elsewhere {
     display: inline;
     float: left;
@@ -863,7 +866,7 @@ footer {
     margin: 0 1.38889%;
     margin-right: 9.72222%;
   }
-  /* line 368, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 369, /Users/admin/git/aaronsalmon.com/css/site.scss */
   .container .vcard #contact-info {
     display: inline;
     float: left;
@@ -872,7 +875,7 @@ footer {
     margin-left: 9.72222%;
   }
 
-  /* line 373, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 374, /Users/admin/git/aaronsalmon.com/css/site.scss */
   h3 {
     display: inline;
     float: left;
@@ -883,7 +886,7 @@ footer {
   }
 }
 @media screen and (max-width: 600px) {
-  /* line 381, /Users/admin/git/aaronsalmon.com/css/site.scss */
+  /* line 382, /Users/admin/git/aaronsalmon.com/css/site.scss */
   body {
     font-size: 0.9375em;
   }
