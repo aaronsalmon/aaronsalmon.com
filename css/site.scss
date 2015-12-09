@@ -108,7 +108,7 @@ ol, ul {
 
 .img-circle {
     border-radius: 500px 500px 500px 500px;
-    box-shadow: 0 0 0 8px #e0e0e0;
+    box-shadow: 0 0 0 5px #e0e0e0;
     margin-top: 46px;
 }
 
@@ -188,7 +188,8 @@ ol, ul {
     padding: 10px 0 40px;
   }
 }
-#history ul {
+#history ul,
+#civic ul {
   padding-top: 10px;
   li {
     padding: 4px 0;
