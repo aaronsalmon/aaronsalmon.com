@@ -1,6 +1,6 @@
 name: Aaron U. Salmon
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 baseurl: /aaronsalmon.com
 
 sass:
