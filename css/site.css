@@ -548,8 +548,11 @@ ol, ul {
   float: left;
   margin: 4px;
   padding: 0;
-  height: 38px;
+  height: 40px;
   width: 38px;
+}
+#elsewhere ul li.mastadon {
+  background-position: -56px -153px;
 }
 /* line 127, /Users/admin/git/aaronsalmon.com/css/site.scss */
 #elsewhere ul li.crunchbase {
