@@ -1,6 +1,7 @@
 <h2 class="contact">Elsewhere</h2>
 <ul>
 	{% if site.owner.linkedin %}<li class="linkedin"><a href="http://www.linkedin.com/in/{{ site.owner.linkedin }}" title="linkedin" rel="me"><span>linkedin</span></a></li>{% endif %}
+	{% if site.owner.mastadon %}<li class="mastadon"><a href="https://{{ site.owner.mastadon }}" title="mastadon" rel="me"><span>mastadon</span></a></li>{% endif %}
 	{% if site.owner.twitter %}<li class="twitter"><a href="http://www.twitter.com/{{ site.owner.twitter }}" title="twitter" rel="me"><span>twitter</span></a></li>{% endif %}
 	{% if site.owner.facebook %}<li class="facebook"><a href="http://www.facebook.com/{{ site.owner.facebook }}" title="facebook" rel="me"><span>facebook</span></a></li>{% endif %}
 	{% if site.owner.dribbble %}<li class="dribbble"><a href="http://dribbble.com/{{ site.owner.dribbble }}" title="dribbble" rel="me"><span>dribbble</span></a></li>{% endif %}
