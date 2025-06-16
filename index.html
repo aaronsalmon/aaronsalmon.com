@@ -6,8 +6,10 @@ tags: site
 
 <h2>User Experience Engineer &amp; Art Director</h2>
 
+<h1>{{ site.owner.name }}</h1>
+
 <h3>
-"Professionalism begets <b>colleaguery</b>, that spirit of mutual support and collective identity that contributes so potently to creative exchange and the sense of progress. It's my responsibility to engender this spirit by setting an amiable, stimulating, creative and professional example." <span>- Yuri Rasovsky</span>
+  "Professionalism begets <b>colleaguery</b>, that spirit of mutual support and collective identity that contributes so potently to creative exchange and the sense of progress. It's my responsibility to engender this spirit by setting an amiable, stimulating, creative and professional example." <span>- Yuri Rasovsky</span>
 </h3>
 
 <div class="vcard " id="hcard-Aaron-U-Salmon" profile="http://www.w3.org/2006/03/hcard" >
@@ -16,22 +18,79 @@ tags: site
   </div>
   <div id="handsome">
     {% if site.owner.avatar1 %}
-    <div class="shadow" id="crossfade">
-      <img width="230" height="230" class="img-circle span3" alt="Aaron Salmon" src="img/{{ site.owner.avatar1 }}">
-      <img width="230" height="230" class="img-circle span3" alt="Aaron Salmon" src="img/{{ site.owner.avatar2 }}">
-      <img width="230" height="230" class="img-circle span3" alt="Aaron Salmon" src="img/{{ site.owner.avatar3 }}">
-      <img width="230" height="230" class="img-circle span3" alt="Aaron Salmon" src="img/{{ site.owner.avatar4 }}">
-      <img width="230" height="230" class="img-circle span3" alt="Aaron Salmon" src="img/{{ site.owner.avatar5 }}">
-		</div>
+    <div class="shadow crossfade" data-section="home">
+      <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar1 }}">
+      <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar2 }}">
+      <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar3 }}">
+      <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar4 }}">
+      <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar5 }}">
+    </div>
+    <div class="image-dots" data-section="home">
+      <div class="image-dot active" data-index="0"></div>
+      <div class="image-dot" data-index="1"></div>
+      <div class="image-dot" data-index="2"></div>
+      <div class="image-dot" data-index="3"></div>
+      <div class="image-dot" data-index="4"></div>
+    </div>
     {% endif %}
   </div>
   <div id="elsewhere">
-  	{% include elsewhere.html %}
+    {% include elsewhere.html %}
   </div>
-   <div id="history">
-  	{% include history.html %}
+  <div id="history">
+    {% include history.html %}
   </div>
-   <div id="civic">
-  	{% include civic.html %}
+  <div id="civic">
+    {% include civic.html %}
   </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Image fade functionality
+  const fadeInterval = 5000; // 5 seconds between fades
+  let fadeTimers = {};
+
+  function setupImageFade(section) {
+    const crossfade = document.querySelector(`.crossfade[data-section="${section}"]`);
+    const dots = document.querySelectorAll(`.image-dots[data-section="${section}"] .image-dot`);
+    const images = crossfade.querySelectorAll('.img-circle');
+    let currentIndex = 0;
+
+    function showImage(index) {
+      // Update images
+      images.forEach((img, i) => {
+        img.style.opacity = i === index ? '1' : '0';
+      });
+
+      // Update dots
+      dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === index);
+      });
+
+      currentIndex = index;
+    }
+
+    function nextImage() {
+      const nextIndex = (currentIndex + 1) % images.length;
+      showImage(nextIndex);
+    }
+
+    // Setup dot click handlers
+    dots.forEach((dot, index) => {
+      dot.addEventListener('click', () => {
+        showImage(index);
+        // Reset the timer
+        clearInterval(fadeTimers[section]);
+        fadeTimers[section] = setInterval(nextImage, fadeInterval);
+      });
+    });
+
+    // Start the fade interval
+    fadeTimers[section] = setInterval(nextImage, fadeInterval);
+  }
+
+  // Initialize fade for homepage
+  setupImageFade('home');
+});
+</script>

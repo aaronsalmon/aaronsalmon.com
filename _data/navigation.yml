@@ -1,0 +1,13 @@
+- title: Work
+  url: /work/
+  subnav:
+    - title: Overview
+      url: /work/
+    - title: My Work
+      url: /work/samples/
+    - title: Values
+      url: /work/values/
+    - title: Background
+      url: /work/background/
+    - title: References
+      url: /work/references/ 

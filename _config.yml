@@ -1,11 +1,34 @@
 name: Aaron U. Salmon
-markdown: redcarpet
-highlighter: pygments
-baseurl: /aaronsalmon.com
+markdown: kramdown
+highlighter: rouge
+baseurl: "" # Change to "/repo-name" if deploying to a subdirectory
 
 sass:
     syntax: scss        # scss|sass
     style:  expanded  # nested|expanded|compact|compressed
+
+# Navigation configuration
+navigation:
+  main:
+    - title: Overview
+      url: /
+    - title: My Work
+      url: /work/
+      subnav:
+        - title: Intro
+          url: /work/intro/
+        - title: Samples
+          url: /work/samples/
+        - title: Case Studies
+          url: /work/case-studies/
+        - title: Values
+          url: /work/values/
+        - title: Background
+          url: /work/background/
+        - title: References
+          url: /work/references/
+    - title: My Story
+      url: /story/
 
 # Owner/author information
 owner:
