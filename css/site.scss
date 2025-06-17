@@ -815,6 +815,10 @@ body.work .container {
   }
 }
 
+.content-section h3 {
+  font-style: italic;
+}
+
 // Mobile styles for intro page
 @media (max-width: 768px) {
   .two-column-container {
@@ -1084,10 +1088,16 @@ p {
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
+  min-height: 100vh;
 }
 
 .two-column-nav {
   flex: 0 0 200px;
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
   
   ul {
     list-style: none;
@@ -1127,14 +1137,18 @@ p {
 
 .two-column-content {
   flex: 1;
+  overflow-y: auto;
 }
 
 // Mobile styles for case studies
 @media (max-width: 768px) {
   .two-column-container {
+    display: flex !important;
     flex-direction: column !important;
     gap: 2rem;
     padding: 1rem;
+    max-width: 100%;
+    min-height: auto;
   }
   
   .two-column-nav {
@@ -1147,16 +1161,22 @@ p {
     border-bottom: 1px solid #dee2e6;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
+    order: -1 !important;
+    top: 0;
+    max-height: none;
+    overflow-y: visible;
     
     ul {
       display: flex !important;
       flex-direction: column !important;
       gap: 0.5rem;
+      width: 100% !important;
     }
     
     li {
       flex: none !important;
       margin-bottom: 0;
+      width: 100% !important;
     }
     
     a {
@@ -1165,6 +1185,8 @@ p {
       border-left: 3px solid transparent;
       border-bottom: none;
       background-color: #f8f9fa;
+      width: 100% !important;
+      display: block !important;
       
       &:hover {
         background-color: #e9ecef;
@@ -1182,6 +1204,12 @@ p {
   
   .two-column-content {
     width: 100% !important;
+    order: 1 !important;
+    flex: 1 !important;
+  }
+
+  .content-section h2 {
+    margin: 2rem 0 1rem;
   }
 }
 

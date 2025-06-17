@@ -832,7 +832,7 @@ permalink: /work/case-studies/
         <dd>Conversational AI interface guidelines and component systems</dd>
         
         <dt>Visual Identity</dt>
-        <dd>Created distinctive brand identity with <a href="https://www.draplin.com/" target="_blank" rel="noopener">Aaron Draplin</a> that resonated with both technical and non-technical audiences</dd>
+        <dd>Created distinctive brand identity that resonated with both technical and non-technical audiences</dd>
         
         <dt>Implementation Guidelines</dt>
         <dd>Technical specifications for development team execution</dd>
@@ -1111,7 +1111,6 @@ permalink: /work/case-studies/
 }
 
 .two-column-nav li {
-  margin-bottom: 1.5rem;
   cursor: pointer;
   text-align: left;
 }
@@ -1153,7 +1152,8 @@ permalink: /work/case-studies/
 .case-study-meta {
   margin-bottom: 3rem;
   background: #f5f5f5;
-  padding: 1.5rem;
+  border: none;
+  padding: 1rem;
   border-radius: 4px;
 }
 
@@ -1161,18 +1161,19 @@ permalink: /work/case-studies/
   display: grid;
   grid-template-columns: 140px 1fr;
   gap: 0.75rem;
+  margin: .25rem 0;
 }
 
 .case-study-meta dl dt {
-  margin-top: 0.5rem;
+  margin: 0;
   text-align: right;
-  padding: 4px 0;
+  padding: 0;
 }
 
 .case-study-meta dl dd {
-  margin-top: 0.5rem;
+  margin: 0rem;
   text-align: left;
-  padding: 4px 0;
+  padding: 0;
 }
 
 .case-study dl:not(.case-study-meta dl) {
@@ -1189,12 +1190,11 @@ permalink: /work/case-studies/
 
 .case-study dd {
   margin: 0;
-  padding: 4px 0;
+  padding: 0;
 }
 
 .case-study p {
   text-align: left;
-  margin-bottom: 1.5rem;
 }
 
 .bullet-list {
@@ -1205,13 +1205,13 @@ permalink: /work/case-studies/
 .bullet-list dt {
   margin-top: 1rem;
   font-weight: bold;
-  padding: 4px 0;
+  padding: 0;
 }
 
 .bullet-list dd {
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   position: relative;
-  padding: 4px 0;
+  padding: 0;
 }
 
 .bullet-list dd:before {

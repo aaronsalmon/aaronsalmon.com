@@ -17,7 +17,21 @@ function initTwoColumnNav() {
       
       // Show corresponding section
       const targetId = this.getAttribute('href').substring(1);
-      document.getElementById(targetId).classList.add('active');
+      const targetSection = document.getElementById(targetId);
+      targetSection.classList.add('active');
+
+      // Scroll to the h2 element of the active section
+      const h2 = targetSection.querySelector('h2');
+      if (h2) {
+        const offset = 100; // Offset from top of viewport
+        const elementPosition = h2.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
     });
   });
 }
