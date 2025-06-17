@@ -1,59 +1,29 @@
 ---
-layout: default
+layout: work
 title: Case Studies
 permalink: /work/case-studies/
 ---
 
 # Case Studies
 
-<div class="case-studies-container">
-  <div class="case-studies-nav">
+<div class="two-column-container">
+  <div class="two-column-nav">
     <ul>
-      <li class="active" data-target="r4">
-        <span class="project">R4 - Behavioral Health Readiness</span>
-        <span class="company">Defense Digital Service</span>
-      </li>
-      <li data-target="drone-detection">
-        <span class="project">Drone Detection UI</span>
-        <span class="company">Defense Digital Service</span>
-      </li>
-      <li data-target="secure-drone">
-        <span class="project">Secure Drone Software Suite</span>
-        <span class="company">Defense Digital Service</span>
-      </li>
-      <li data-target="bastion">
-        <span class="project">BASTION - Aerial Refueling</span>
-        <span class="company">Defense Digital Service</span>
-      </li>
-      <li data-target="desert-architect">
-        <span class="project">Desert Architect</span>
-        <span class="company">Defense Digital Service</span>
-      </li>
-      <li data-target="discovery-sprints">
-        <span class="project">Strategic Discovery Sprints</span>
-        <span class="company">Defense Digital Service</span>
-      </li>
-      <li data-target="magic-manifest">
-        <span class="project">Magic Manifest</span>
-        <span class="company">Defense Digital Service</span>
-      </li>
-      <li data-target="fraight-ai">
-        <span class="project">FRAIGHT AI</span>
-        <span class="company">Consulting</span>
-      </li>
-      <li data-target="public-good">
-        <span class="project">Public Good Software</span>
-        <span class="company">Founding Team</span>
-      </li>
-      <li data-target="obama">
-        <span class="project">Obama 2012</span>
-        <span class="company">Campaign Technology</span>
-      </li>
+      <li><a href="#r4" class="active"><strong>R4</strong> - Behavioral Health Readiness<br><span class="org">Defense Digital Service</span></a></li>
+      <li><a href="#drone-detection"><strong>Drone Detection UI</strong><br><span class="org">Defense Digital Service</span></a></li>
+      <li><a href="#secure-drone"><strong>Secure Drone Software Suite</strong><br><span class="org">Defense Digital Service</span></a></li>
+      <li><a href="#bastion"><strong>BASTION</strong> - Aerial Refueling<br><span class="org">Defense Digital Service</span></a></li>
+      <li><a href="#desert-architect"><strong>Desert Architect</strong><br><span class="org">Defense Digital Service</span></a></li>
+      <li><a href="#discovery-sprints"><strong>Strategic Discovery Sprints</strong><br><span class="org">Defense Digital Service</span></a></li>
+      <li><a href="#magic-manifest"><strong>Magic Manifest</strong><br><span class="org">Defense Digital Service</span></a></li>
+      <li><a href="#fraight-ai"><strong>The Archie Logistics Bot</strong><br><span class="org">FRAIGHT AI</span></a></li>
+      <li><a href="#public-good"><strong>Public Good Software</strong><br><span class="org">Public Good Inc.</span></a></li>
+      <li><a href="#obama"><strong>Obama 2012</strong><br><span class="org">Obama for America</span></a></li>
     </ul>
   </div>
 
-  <div class="case-studies-content">
-    <div id="r4" class="case-study active">
+  <div class="two-column-content left-aligned">
+    <div id="r4" class="content-section active">
       <h2>R4 - Behavioral Health Readiness and Suicide Risk Reduction Review</h2>
       <h3>From Policy to Practice: Designing Life-Saving Mental Health Tools for Military Leaders</h3>
       
@@ -166,7 +136,7 @@ permalink: /work/case-studies/
       <p class="note">Project details shared within security guidelines. Specific implementation details and testing results remain sensitive.</p>
     </div>
 
-    <div id="drone-detection" class="case-study">
+    <div id="drone-detection" class="content-section">
       <h2>Drone Detection UI</h2>
       <h3>Securing National Airspace: Designing Drone Detection Interfaces for Critical Defense Operations</h3>
       
@@ -274,8 +244,8 @@ permalink: /work/case-studies/
       <p class="note">Project details shared within security guidelines. Specific technical capabilities and operational details remain classified.</p>
     </div>
 
-    <div id="secure-drone" class="case-study">
-      <h2>A Secure Drone Software Suite</h2>
+    <div id="secure-drone" class="content-section">
+      <h2>Secure Drone Software Suite</h2>
       <h3>Securing Commercial Drones for Military Use: Enabling Mission-Critical Operations Through Design</h3>
       
       <div class="case-study-meta">
@@ -354,7 +324,7 @@ permalink: /work/case-studies/
       <p class="note">Specific operational details, security methodologies, and user research findings remain classified. Project scope and impact shared within security guidelines.</p>
     </div>
 
-    <div id="bastion" class="case-study">
+    <div id="bastion" class="content-section">
       <h2>BASTION</h2>
       <h3>AI-Powered Aerial Refueling Logistics: Congressional Mandate to Optimize Military Operations</h3>
       
@@ -443,7 +413,7 @@ permalink: /work/case-studies/
       <p class="note">Specific technical solutions, security methodologies, and operational details remain classified. Event design approach and strategic impact shared within security guidelines.</p>
     </div>
 
-    <div id="desert-architect" class="case-study">
+    <div id="desert-architect" class="content-section">
       <h2>Desert Architect</h2>
       <h3>Designing Innovation Events for Critical Military Challenges</h3>
       
@@ -547,7 +517,7 @@ permalink: /work/case-studies/
       <p class="note">Specific technical solutions, security methodologies, and operational details remain classified. Event design approach and strategic impact shared within security guidelines.</p>
     </div>
 
-    <div id="discovery-sprints" class="case-study">
+    <div id="discovery-sprints" class="content-section">
       <h2>Strategic Discovery Sprints</h2>
       <h3>Rapid Problem Diagnosis for Defense Leadership</h3>
       
@@ -706,7 +676,7 @@ permalink: /work/case-studies/
       <p class="note">Note: Specific project details, organizational findings, and strategic recommendations remain classified. Sprint methodology and strategic impact shared within security guidelines.</p>
     </div>
 
-    <div id="magic-manifest" class="case-study">
+    <div id="magic-manifest" class="content-section">
       <h2>Magic Manifest</h2>
       <h3>Designing Paratrooper Safety Applications for the 82nd Airborne</h3>
       
@@ -797,7 +767,7 @@ permalink: /work/case-studies/
       <p class="note">Note: Specific operational details and security features remain within military guidelines. Design approach and operational impact shared appropriately.</p>
     </div>
 
-    <div id="fraight-ai" class="case-study">
+    <div id="fraight-ai" class="content-section">
       <h2>FRAIGHT AI</h2>
       <h3>From Whiteboard to 'Best in Show': Designing AI Interfaces for Freight Logistics</h3>
       
@@ -892,7 +862,7 @@ permalink: /work/case-studies/
       <p class="note">Project completed under tight deadline constraints while maintaining high design quality standards for critical industry demonstration.</p>
     </div>
 
-    <div id="public-good" class="case-study">
+    <div id="public-good" class="content-section">
       <h2>Public Good Software</h2>
       <h3>Building Public Good Software: From Founding Team to Mission-Driven Platform</h3>
       
@@ -1017,7 +987,7 @@ permalink: /work/case-studies/
       <p class="note">Project represents successful startup founding experience with sustained social impact and nonprofit empowerment outcomes.</p>
     </div>
 
-    <div id="obama" class="case-study">
+    <div id="obama" class="content-section">
       <h2>Obama 2012</h2>
       <h3>Respect, Empower, Include, Win - Designing Democracy at Scale</h3>
       
@@ -1114,60 +1084,18 @@ permalink: /work/case-studies/
       <p>Established lifelong commitment to using design and technology for positive social impact.</p>
       <p>My time on the campaign represents a pivotal moment in political technology history and my personal commitment to democracy-enhancing design work.</p>
     </div>
-
-    <!-- Additional case studies will be added here -->
   </div>
 </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const navItems = document.querySelectorAll('.case-studies-nav li');
-  const caseStudies = document.querySelectorAll('.case-study');
-  
-  // Show first case study by default
-  caseStudies[0].classList.add('active');
-  navItems[0].classList.add('active');
-  
-  navItems.forEach(item => {
-    item.addEventListener('click', function() {
-      // Remove active class from all items
-      navItems.forEach(nav => nav.classList.remove('active'));
-      caseStudies.forEach(study => study.classList.remove('active'));
-      
-      // Add active class to clicked item
-      this.classList.add('active');
-      
-      // Show corresponding case study
-      const targetId = this.getAttribute('data-target');
-      const targetStudy = document.getElementById(targetId);
-      targetStudy.classList.add('active');
-      
-      // Scroll to the h2 of the active case study with offset
-      const h2 = targetStudy.querySelector('h2');
-      if (h2) {
-        const offset = 80; // Offset in pixels
-        const h2Position = h2.getBoundingClientRect().top;
-        const offsetPosition = h2Position + window.pageYOffset - offset;
-        
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth'
-        });
-      }
-    });
-  });
-});
-</script>
-
 <style>
-.case-studies-container {
+.two-column-container {
   display: grid;
   grid-template-columns: 300px 1fr;
   gap: 4rem;
   margin-top: 2rem;
 }
 
-.case-studies-nav {
+.two-column-nav {
   position: sticky;
   top: 5rem;
   height: fit-content;
@@ -1176,46 +1104,46 @@ document.addEventListener('DOMContentLoaded', function() {
   text-align: left;
 }
 
-.case-studies-nav ul {
+.two-column-nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.case-studies-nav li {
+.two-column-nav li {
   margin-bottom: 1.5rem;
   cursor: pointer;
   text-align: left;
 }
 
-.case-studies-nav li.active {
+.two-column-nav li.active {
   font-weight: bold;
 }
 
-.case-studies-nav .project {
+.two-column-nav .project {
   display: block;
   font-weight: bold;
 }
 
-.case-studies-nav .company {
+.two-column-nav .company {
   display: block;
   font-size: 0.9em;
   color: #666;
 }
 
-.case-study {
+.content-section {
   display: none;
 }
 
-.case-study.active {
+.content-section.active {
   display: block;
 }
 
-.case-study h2 {
+.content-section h2 {
   margin-bottom: 0.5rem;
 }
 
-.case-study h3 {
+.content-section h3 {
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: normal;
