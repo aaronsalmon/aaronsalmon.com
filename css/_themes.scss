@@ -1,0 +1,100 @@
+:root {
+  --nav-bg: rgba(248, 249, 250, 0.65);
+  --nav-border: #e0e0e0;
+  --text-color: #333;
+  --bg-color: #fff;
+  --link-color: #007bff;
+  --link-hover-color: #0056b3;
+  --nav-gradient: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+[data-theme="dark"] {
+  --nav-bg: rgba(36, 36, 36, 0.65);
+  --nav-border: #333;
+  --text-color: #f8f9fa;
+  --bg-color: #121212;
+  --link-color: #66b3ff;
+  --link-hover-color: #99ccff;
+  --nav-gradient: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+[data-theme="orange"] {
+  --nav-bg: rgba(211, 91, 65, 0.65);
+  --nav-border: #b34a32;
+  --text-color: #fff;
+  --bg-color: #f8f9fa;
+  --link-color: #ff9966;
+  --link-hover-color: #ffcc99;
+  --nav-gradient: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  background: var(--nav-bg);
+  border-top: 1px solid var(--nav-border);
+  z-index: 100;
+  padding: 0.5em 0;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.theme-toggle-btn {
+  width: 26px;
+  height: 26px;
+  border: 1px solid #ccc;
+  background: #f0f0f0;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10px 10px;
+  transition: background-image 0.2s;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 4px;
+  padding: 3px;
+}
+
+.footer-content p {
+  margin: 0;
+  color: var(--text-color);
+  font-size: 1em;
+}
+
+[data-theme="theme-1"] .theme-toggle-btn {
+  /* DaySunny icon (black stroke) */
+  background-image: url('data:image/svg+xml;utf8,' + encodeURIComponent('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>'));
+}
+
+[data-theme="theme-2"] .theme-toggle-btn {
+  /* MoonWaningCrescent3 icon (black stroke) */
+  background-image: url('data:image/svg+xml;utf8,' + encodeURIComponent('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"/></svg>'));
+}
+
+[data-theme="theme-3"] .theme-toggle-btn {
+  /* Cloudy icon placeholder (black stroke) */
+  background-image: url('data:image/svg+xml;utf8,' + encodeURIComponent('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="17" rx="7" ry="4"/><ellipse cx="17" cy="15" rx="5" ry="3"/></svg>'));
+}
+
+[data-theme="theme-4"] .theme-toggle-btn {
+  /* DayHaze icon placeholder (black stroke) */
+  background-image: url('data:image/svg+xml;utf8,' + encodeURIComponent('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="4" y1="20" x2="20" y2="20"/><line x1="2" y1="16" x2="22" y2="16"/></svg>'));
+}
+
+[data-theme="theme-5"] .theme-toggle-btn {
+  /* Hot icon placeholder (black stroke) */
+  background-image: url('data:image/svg+xml;utf8,' + encodeURIComponent('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C12 2 7 7 7 12a5 5 0 0 0 10 0c0-5-5-10-5-10z"/></svg>'));
+}
+
+[data-theme="theme-6"] .theme-toggle-btn {
+  /* Stars icon placeholder (black stroke) */
+  background-image: url('data:image/svg+xml;utf8,' + encodeURIComponent('<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="12" cy="18" r="2"/></svg>'));
+} 
