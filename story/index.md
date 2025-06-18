@@ -25,14 +25,20 @@ permalink: /story/
         </div>
         <div class="story-image">
           <div class="shadow crossfade" data-section="origin">
-            <img width="230" height="230" class="img-circle" alt="Origin Story" src="/img/origin1.jpg">
-            <img width="230" height="230" class="img-circle" alt="Origin Story" src="/img/origin2.jpg">
-            <img width="230" height="230" class="img-circle" alt="Origin Story" src="/img/origin3.jpg">
+            <img width="230" height="230" class="img-circle" alt="Origin Story" src="/img/crossfade/origin/origin-1.jpg">
+            <img width="230" height="230" class="img-circle" alt="Origin Story" src="/img/crossfade/origin/origin-2.jpg">
+            <img width="230" height="230" class="img-circle" alt="Origin Story" src="/img/crossfade/origin/origin-3.jpg">
+            <img width="230" height="230" class="img-circle" alt="Origin Story" src="/img/crossfade/origin/origin-4.jpg">
+            <img width="230" height="230" class="img-circle" alt="Origin Story" src="/img/crossfade/origin/origin-5.jpg">
+            <img width="230" height="230" class="img-circle" alt="Origin Story" src="/img/crossfade/origin/origin-6.jpg">
           </div>
           <div class="image-dots" data-section="origin">
             <div class="image-dot active" data-index="0"></div>
             <div class="image-dot" data-index="1"></div>
             <div class="image-dot" data-index="2"></div>
+            <div class="image-dot" data-index="3"></div>
+            <div class="image-dot" data-index="4"></div>
+            <div class="image-dot" data-index="5"></div>
           </div>
         </div>
       </div>
@@ -46,14 +52,24 @@ permalink: /story/
         </div>
         <div class="story-image">
           <div class="shadow crossfade" data-section="chicago">
-            <img width="230" height="230" class="img-circle" alt="Chicago Years" src="/img/chicago1.jpg">
-            <img width="230" height="230" class="img-circle" alt="Chicago Years" src="/img/chicago2.jpg">
-            <img width="230" height="230" class="img-circle" alt="Chicago Years" src="/img/chicago3.jpg">
+            <img width="230" height="230" class="img-circle" alt="Chicago Years" src="/img/crossfade/chicago/chicago-1.jpg">
+            <img width="230" height="230" class="img-circle" alt="Chicago Years" src="/img/crossfade/chicago/chicago-2.jpg">
+            <img width="230" height="230" class="img-circle" alt="Chicago Years" src="/img/crossfade/chicago/chicago-3.jpg">
+            <img width="230" height="230" class="img-circle" alt="Chicago Years" src="/img/crossfade/chicago/chicago-4.jpg">
+            <img width="230" height="230" class="img-circle" alt="Chicago Years" src="/img/crossfade/chicago/chicago-5.jpg">
+            <img width="230" height="230" class="img-circle" alt="Chicago Years" src="/img/crossfade/chicago/chicago-6.jpg">
+            <img width="230" height="230" class="img-circle" alt="Chicago Years" src="/img/crossfade/chicago/chicago-7.jpg">
+            <img width="230" height="230" class="img-circle" alt="Chicago Years" src="/img/crossfade/chicago/pool.png">
           </div>
           <div class="image-dots" data-section="chicago">
             <div class="image-dot active" data-index="0"></div>
             <div class="image-dot" data-index="1"></div>
             <div class="image-dot" data-index="2"></div>
+            <div class="image-dot" data-index="3"></div>
+            <div class="image-dot" data-index="4"></div>
+            <div class="image-dot" data-index="5"></div>
+            <div class="image-dot" data-index="6"></div>
+            <div class="image-dot" data-index="7"></div>
           </div>
         </div>
       </div>
@@ -67,14 +83,18 @@ permalink: /story/
         </div>
         <div class="story-image">
           <div class="shadow crossfade" data-section="up-north">
-            <img width="230" height="230" class="img-circle" alt="Up North" src="/img/upnorth1.jpg">
-            <img width="230" height="230" class="img-circle" alt="Up North" src="/img/upnorth2.jpg">
-            <img width="230" height="230" class="img-circle" alt="Up North" src="/img/upnorth3.jpg">
+            <img width="230" height="230" class="img-circle" alt="Up North" src="/img/crossfade/up-north/up-north-1.jpg">
+            <img width="230" height="230" class="img-circle" alt="Up North" src="/img/crossfade/up-north/up-north-2.jpg">
+            <img width="230" height="230" class="img-circle" alt="Up North" src="/img/crossfade/up-north/up-north-3.jpg">
+            <img width="230" height="230" class="img-circle" alt="Up North" src="/img/crossfade/up-north/up-north-4.jpg">
+            <img width="230" height="230" class="img-circle" alt="Up North" src="/img/crossfade/up-north/up-north-5.jpg">
           </div>
           <div class="image-dots" data-section="up-north">
             <div class="image-dot active" data-index="0"></div>
             <div class="image-dot" data-index="1"></div>
             <div class="image-dot" data-index="2"></div>
+            <div class="image-dot" data-index="3"></div>
+            <div class="image-dot" data-index="4"></div>
           </div>
         </div>
       </div>
@@ -93,14 +113,26 @@ permalink: /story/
         </div>
         <div class="story-image">
           <div class="shadow crossfade" data-section="new-hottness">
-            <img width="230" height="230" class="img-circle" alt="New Hottness" src="/img/hottness1.jpg">
-            <img width="230" height="230" class="img-circle" alt="New Hottness" src="/img/hottness2.jpg">
-            <img width="230" height="230" class="img-circle" alt="New Hottness" src="/img/hottness3.jpg">
+            <img width="230" height="230" class="img-circle" alt="New Hottness" src="/img/crossfade/new-hottness/new-hottness-0.jpg">
+            <img width="230" height="230" class="img-circle" alt="New Hottness" src="/img/crossfade/new-hottness/new-hottness-1.jpg">
+            <img width="230" height="230" class="img-circle" alt="New Hottness" src="/img/crossfade/new-hottness/new-hottness-2.jpg">
+            <img width="230" height="230" class="img-circle" alt="New Hottness" src="/img/crossfade/new-hottness/new-hottness-3.jpg">
+            <img width="230" height="230" class="img-circle" alt="New Hottness" src="/img/crossfade/new-hottness/new-hottness-5.jpg">
+            <img width="230" height="230" class="img-circle" alt="New Hottness" src="/img/crossfade/new-hottness/office-2020.jpg">
+            <img width="230" height="230" class="img-circle" alt="New Hottness" src="/img/crossfade/new-hottness/coins.jpg">
+            <img width="230" height="230" class="img-circle" alt="New Hottness" src="/img/crossfade/new-hottness/desk.jpg">
+            <img width="230" height="230" class="img-circle" alt="New Hottness" src="/img/crossfade/new-hottness/shift.jpg">
           </div>
           <div class="image-dots" data-section="new-hottness">
             <div class="image-dot active" data-index="0"></div>
             <div class="image-dot" data-index="1"></div>
             <div class="image-dot" data-index="2"></div>
+            <div class="image-dot" data-index="3"></div>
+            <div class="image-dot" data-index="4"></div>
+            <div class="image-dot" data-index="5"></div>
+            <div class="image-dot" data-index="6"></div>
+            <div class="image-dot" data-index="7"></div>
+            <div class="image-dot" data-index="8"></div>
           </div>
         </div>
       </div>
@@ -108,4 +140,54 @@ permalink: /story/
   </div>
 </div>
 
-<script src="/assets/js/two-column-nav.js"></script> 
+<script src="/assets/js/two-column-nav.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Image fade functionality
+  const fadeInterval = 5000; // 5 seconds between fades
+  let fadeTimers = {};
+
+  function setupImageFade(section) {
+    const crossfade = document.querySelector(`.crossfade[data-section="${section}"]`);
+    if (!crossfade) return;
+    const dots = document.querySelectorAll(`.image-dots[data-section="${section}"] .image-dot`);
+    const images = crossfade.querySelectorAll('.img-circle');
+    let currentIndex = 0;
+
+    function showImage(index) {
+      // Update images
+      images.forEach((img, i) => {
+        img.style.opacity = i === index ? '1' : '0';
+      });
+
+      // Update dots
+      dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === index);
+      });
+
+      currentIndex = index;
+    }
+
+    function nextImage() {
+      const nextIndex = (currentIndex + 1) % images.length;
+      showImage(nextIndex);
+    }
+
+    // Setup dot click handlers
+    dots.forEach((dot, index) => {
+      dot.addEventListener('click', () => {
+        showImage(index);
+        // Reset the timer
+        clearInterval(fadeTimers[section]);
+        fadeTimers[section] = setInterval(nextImage, fadeInterval);
+      });
+    });
+
+    // Start the fade interval
+    fadeTimers[section] = setInterval(nextImage, fadeInterval);
+  }
+
+  // Initialize fade for all crossfade sections
+  ['origin', 'chicago', 'up-north', 'new-hottness'].forEach(setupImageFade);
+});
+</script> 

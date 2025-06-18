@@ -9,7 +9,9 @@ tags: site
 <h2>Product &amp; UX Design Leadership</h2>
 
 <h3>
-  "Professionalism begets <b>colleaguery</b>, that spirit of mutual support and collective identity that contributes so potently to creative exchange and the sense of progress. It's my responsibility to engender this spirit by setting an amiable, stimulating, creative and professional example." <span>- Yuri Rasovsky</span>
+  "Professionalism begets <b>colleaguery</b>, that spirit of mutual support and collective identity that
+  contributes so potently to creative exchange and the sense of ensemble. It is your responsibility
+  to engender this spirit by setting an amiable, stimulating, creative and professional example." <span>- Yuri Rasovsky</span>
 </h3>
 
 <div class="container">
@@ -20,11 +22,13 @@ tags: site
     <div id="handsome">
       {% if site.owner.avatar1 %}
       <div class="shadow crossfade" data-section="home">
-        <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar1 }}">
-        <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar2 }}">
-        <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar3 }}">
-        <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar4 }}">
-        <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar5 }}">
+        <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/crossfade/home/obama-hug.jpg">
+        <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/crossfade/home/home-1.jpg">
+        <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/crossfade/home/office-2020.jpg">
+        <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/crossfade/home/garden-leader-telegram.jpg">
+        <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/crossfade/home/july4th.jpg">
+        <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/crossfade/home/with-aleister.png">
+        <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/crossfade/home/laptop.png">
       </div>
       <div class="image-dots" data-section="home">
         <div class="image-dot active" data-index="0"></div>
@@ -32,6 +36,8 @@ tags: site
         <div class="image-dot" data-index="2"></div>
         <div class="image-dot" data-index="3"></div>
         <div class="image-dot" data-index="4"></div>
+        <div class="image-dot" data-index="5"></div>
+        <div class="image-dot" data-index="6"></div>
       </div>
       {% endif %}
     </div>
@@ -92,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
     fadeTimers[section] = setInterval(nextImage, fadeInterval);
   }
 
-  // Initialize fade for homepage
-  setupImageFade('home');
+  // Initialize fade for all crossfade sections
+  ['home', 'origin', 'chicago', 'up-north', 'new-hottness'].forEach(setupImageFade);
 });
 </script>
