@@ -130,7 +130,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: math.div($font-size, $em);
+  font-size: ($font-size / $em);
   margin-bottom: 1rem;
 }
 
@@ -623,7 +623,7 @@ footer {
 
 .nav-menu a:hover {
   color: var(--link-color);
-        }
+}
 
 .nav-container a.active {
   color: var(--nav-active-color);

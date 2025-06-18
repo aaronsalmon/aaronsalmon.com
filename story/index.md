@@ -140,7 +140,7 @@ permalink: /story/
   </div>
 </div>
 
-<script src="/assets/js/two-column-nav.js"></script>
+<script src="/assets/js/two-column-nav.js"></script> 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Image fade functionality

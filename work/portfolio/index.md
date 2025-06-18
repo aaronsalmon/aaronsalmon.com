@@ -42,6 +42,13 @@ permalink: /work/portfolio/
       <p><em>Worth noting: This was a GS-15 position requiring TS/SCI clearance, and while I can't show most of the actual work, I'm happy to chat about my approach to these challenges.</em></p>
       
       <div class="project-gallery">
+        <!-- Video Demo -->
+        <a href="/img/projects/dds/dds_value.mp4" data-fancybox="dds-gallery" data-caption="DDS Value Demo Video">
+          <video width="100%" height="auto" controls poster="/img/projects/dds/dds_value_thumb.png" style="max-width:100%;border-radius:4px;">
+            <source src="/img/projects/dds/dds_value.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </a>
         <!-- Team and Culture -->
         <a href="/img/projects/dds/01_team_photo.jpg" data-fancybox="dds-gallery" data-caption="DDS Team and Culture">
           <img src="/img/projects/dds/01_team_photo.jpg" alt="DDS Team and Culture" />
@@ -453,6 +460,10 @@ permalink: /work/portfolio/
       <p>I kicked things off by spending a week embedded with the team and users, watching workflows, conducting interviews, and covering whiteboards with ideas. From there, I developed a Slack-inspired interface for interacting with Archie, focusing on making complex AI interactions feel natural. The key insight? Instead of forcing truckers to adopt new tech, we met them where they were - using familiar channels like email and SMS.</p>
       <p>The timeline was tight - we needed medium-fidelity wireframes that could be implemented quickly for a major industry demo. The hard work paid off when Archie won 'Best in Show' at the FreightWaves conference!</p>
       <div class="project-gallery">
+        <!-- Video Demo -->
+        <a href="https://youtu.be/zg68VwjFWH0" data-fancybox="fraight-gallery" data-type="iframe" data-caption="Archie AI Demo - Watch how Archie communicates with truckers">
+          <img src="/img/projects/fraightai/demovideothumb.png" alt="Archie AI Demo - Watch how Archie communicates with truckers" />
+        </a>
         <!-- Research and Discovery -->
         <a href="/img/projects/fraightai/01_whiteboard_research.png" data-fancybox="fraight-gallery" data-caption="Whiteboard Research - Initial ideation and user insights">
           <img src="/img/projects/fraightai/01_whiteboard_research.png" alt="Whiteboard Research - Initial ideation and user insights" />
@@ -467,10 +478,6 @@ permalink: /work/portfolio/
         <!-- Interface Design -->
         <a href="/img/projects/fraightai/04_archie_interface.png" data-fancybox="fraight-gallery" data-caption="Archie Interface - Slack-inspired design for natural AI interaction">
           <img src="/img/projects/fraightai/04_archie_interface.png" alt="Archie Interface - Slack-inspired design for natural AI interaction" />
-        </a>
-        <!-- Video Demo -->
-        <a href="https://youtu.be/zg68VwjFWH0" data-fancybox="fraight-gallery" data-type="iframe" data-caption="Archie AI Demo - Watch how Archie communicates with truckers">
-          <img src="https://img.youtube.com/vi/zg68VwjFWH0/maxresdefault.jpg" alt="Archie AI Demo - Watch how Archie communicates with truckers" />
         </a>
       </div>
     </div>
