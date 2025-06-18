@@ -11,17 +11,17 @@ permalink: /work/portfolio/
     <ul>
       <li><a href="#dds"><img src="/img/projects/thumb_dds.png" alt="Defense Digital Service" /></a></li>
       <li><a href="#publicgood"><img src="/img/projects/thumb_publicgood.png" alt="Public Good" /></a></li>
-      <li><a href="#rockthevote"><img src="/img/projects/thumb_rockthevote.png" alt="Rock the Vote" /></a></li>
       <li><a href="#obama"><img src="/img/projects/thumb_obama.png" alt="Obama Campaign" /></a></li>
+      <li><a href="#fraight"><img src="/img/projects/thumb_fraight.png" alt="Fraight" /></a></li>
+      <li><a href="#rockthevote"><img src="/img/projects/thumb_rockthevote.png" alt="Rock the Vote" /></a></li>
       <li><a href="#fourseasons"><img src="/img/projects/thumb_fourseasons.png" alt="Four Seasons" /></a></li>
       <li><a href="#scripps"><img src="/img/projects/thumb_scripps.png" alt="Scripps" /></a></li>
-      <li><a href="#shift"><img src="/img/projects/thumb_shift.png" alt="Shift" /></a></li>
-      <li><a href="#fraight"><img src="/img/projects/thumb_fraight.png" alt="Fraight" /></a></li>
       <li><a href="#ataraxis"><img src="/img/projects/thumb_ataraxis.png" alt="Ataraxis" /></a></li>
+      <li><a href="#shift"><img src="/img/projects/thumb_shift.png" alt="Shift" /></a></li>
       <li><a href="#nactatr"><img src="/img/projects/thumb_nactatr.png" alt="NACTA TR" /></a></li>
       <li><a href="#usfoods-foodgenius"><img src="/img/projects/thumb_usfoods_foodgenius.png" alt="US Foods FoodGenius" /></a></li>
-      <li><a href="#civic-life"><img src="/img/projects/thumb_civic_life.png" alt="Civic Life" /></a></li>
       <li><a href="#colleaguery"><img src="/img/projects/thumb_colleaguery.png" alt="Colleaguery" /></a></li>
+      <li><a href="#civic-life"><img src="/img/projects/thumb_civic_life.png" alt="Civic Life" /></a></li>
     </ul>
   </div>
 
