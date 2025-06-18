@@ -197,6 +197,9 @@ permalink: /work/portfolio/
         <a href="/img/projects/publicgood/13_impact.png" data-fancybox="publicgood-gallery" data-caption="Project Impact">
           <img src="/img/projects/publicgood/13_impact.png" alt="Project Impact" />
         </a>
+        <a href="/img/projects/publicgood/17_PGmehome_cutout.jpg" data-fancybox="publicgood-gallery" data-caption="PGme Home Cutout - Public Good Project">
+          <img src="/img/projects/publicgood/17_PGmehome_cutout.jpg" alt="PGme Home Cutout - Public Good Project" style="width:200px;height:auto;object-fit:cover;" />
+        </a>
       </div>
     </div>
     <div id="rockthevote" class="content-section">
@@ -314,7 +317,7 @@ permalink: /work/portfolio/
         <a href="/img/projects/obama/15_call_tool.png" data-fancybox="obama-gallery" data-caption="Call Tool - 3M+ Voter Outreach Calls">
           <img src="/img/projects/obama/15_call_tool.png" alt="Call Tool - 3M+ Voter Outreach Calls" />
         </a>
-        <a href="/img/projects/obama/obama-campaign-video.mp4" data-fancybox="obama-gallery" data-caption="Obama 2012 Campaign Video Segment">
+        <a href="/img/projects/obama/obama-campaign-video-web.mp4" data-fancybox="obama-gallery" data-caption="Obama 2012 Campaign Video Segment">
           <img src="/img/projects/obama/obama-campaign-video-thumb.jpg" alt="Obama 2012 Campaign Video Segment" style="width:200px;height:auto;object-fit:cover;" />
         </a>
         <a href="/img/projects/obama/atlantic_article.png" data-fancybox="obama-gallery" data-caption="The Atlantic Article: 'When the Nerds Go Marching In' - Coverage of the Obama 2012 Tech Team">
