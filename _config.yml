@@ -3,6 +3,7 @@ markdown: kramdown
 highlighter: rouge
 baseurl: "" # Change to "/repo-name" if deploying to a subdirectory
 theme: jekyll-theme-primer
+repository: aaronsalmon/aaronsalmon.com
 
 sass:
     syntax: scss        # scss|sass
