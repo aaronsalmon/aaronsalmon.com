@@ -20,17 +20,33 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2'
+          ruby-version: '3.1.4'
           bundler-cache: true
+      
+      - name: Debug Ruby and Bundler
+        run: |
+          ruby -v
+          gem -v
+          bundle -v
+          bundle config
+      
+      - name: Install dependencies
+        run: |
+          bundle install
+          bundle list
+      
       - name: Setup Pages
         uses: actions/configure-pages@v4
+      
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.dpo.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
