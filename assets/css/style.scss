@@ -943,9 +943,9 @@ p {
 }
 
 .vertical-chooser .two-column-nav img {
-  width: 200px;
-  height: 150px;
-  object-fit: cover;
+  width: 140px;
+  height: 105px;
+  object-fit: contain;
   border: 2px solid transparent;
   transition: border-color 0.2s, transform 0.2s;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -1140,6 +1140,19 @@ margin-top: 0;
 
 .work .container {
   margin-top: 50px;
+}
+
+.work {
+  .vertical-chooser {
+    .two-column-nav {
+      a {
+        padding: 9px 0 4px;
+      }
+      ul {
+        gap: 0;
+      }
+    }
+  }
 }
 
 /*****************************************************************************/
