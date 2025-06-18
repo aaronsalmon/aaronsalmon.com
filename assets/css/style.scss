@@ -1,5 +1,6 @@
 ---
 ---
+@use "sass:math";
 @import "jekyll-theme-primer";
 
 // variables
@@ -48,9 +49,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  margin: 5.5rem auto 1.5rem;
   font-size: 4.25rem;
   line-height: 1.2em;
+  margin-bottom: 1rem;
 }
 
 h2 {
@@ -123,8 +124,8 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 4.25rem;
-  line-height: 1.2em;
+  font-size: math.div($font-size, $em);
+  margin-bottom: 1rem;
 }
 
 h2 {
@@ -710,6 +711,7 @@ body.work .container {
 // Sub Navigation Styles
 .sub-nav {
   background-color: var(--nav-bg);
+  border-bottom: 1px solid #f0f0f0;
   transition: background-color var(--transition-speed), border-color var(--transition-speed);
   text-align: center;
   margin-bottom: 2rem;
@@ -1109,13 +1111,10 @@ p {
     }
   }
 }
-.home h1 {
-  margin-top: 1rem;
-}
 
 // Work page specific styles
 .work h1 {
-  margin-top: 50px;
+margin-top: 0;
 }
 
 .work .container {
