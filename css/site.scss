@@ -444,6 +444,12 @@ footer {
   -webkit-backdrop-filter: blur(20px);
   z-index: 100;
   padding: 0.5em 0;
+  p {
+    margin: 0 auto;
+    opacity: .8;
+    font-size: ($font-size - 2) / $em;
+    color: #777;
+  }
 }
 
 .copyright {
@@ -472,6 +478,14 @@ footer {
   justify-content: center;
   gap: 1rem;
   transition: background-color var(--transition-speed), color var(--transition-speed), border-color var(--transition-speed);
+  p {
+    margin: 0 auto;
+  }
+}
+
+
+#theme-toggle {
+  display: none;
 }
 
 /*****************************************************************************/
@@ -1095,6 +1109,9 @@ p {
       margin: 2rem auto;
     }
   }
+}
+.home h1 {
+  margin-top: 1rem;
 }
 
 // Work page specific styles
