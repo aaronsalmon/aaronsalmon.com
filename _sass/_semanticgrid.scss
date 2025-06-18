@@ -1,3 +1,23 @@
+// Grid system
+$columns: 12;
+$column-width: 100% / $columns;
+
+// Mixins for grid system
+@mixin column($n) {
+  width: $column-width * $n;
+  float: left;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@mixin push($n) {
+  margin-left: $column-width * $n;
+}
+
+@mixin pull($n) {
+  margin-right: $column-width * $n;
+}
+
 // Basic grid system
 .container {
   width: 100%;
@@ -5,11 +25,22 @@
   margin: 0 auto;
   padding: 0 1rem;
   box-sizing: border-box;
+  
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 
 // Responsive breakpoints
 @media (max-width: 768px) {
   .container {
     padding: 0 0.5rem;
+  }
+  
+  [class*="column"] {
+    width: 100% !important;
+    margin: 0 !important;
   }
 } 
