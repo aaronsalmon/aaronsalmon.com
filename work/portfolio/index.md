@@ -314,6 +314,12 @@ permalink: /work/portfolio/
         <a href="/img/projects/obama/15_call_tool.png" data-fancybox="obama-gallery" data-caption="Call Tool - 3M+ Voter Outreach Calls">
           <img src="/img/projects/obama/15_call_tool.png" alt="Call Tool - 3M+ Voter Outreach Calls" />
         </a>
+        <a href="/img/projects/obama/obama-campaign-video.mp4" data-fancybox="obama-gallery" data-caption="Obama 2012 Campaign Video Segment">
+          <img src="/img/projects/obama/obama-campaign-video-thumb.jpg" alt="Obama 2012 Campaign Video Segment" style="width:200px;height:auto;object-fit:cover;" />
+        </a>
+        <a href="/img/projects/obama/atlantic_article.png" data-fancybox="obama-gallery" data-caption="The Atlantic Article: 'When the Nerds Go Marching In' - Coverage of the Obama 2012 Tech Team">
+          <img src="/img/projects/obama/atlantic_article.png" alt="The Atlantic Article: 'When the Nerds Go Marching In'" style="width:200px;height:auto;object-fit:cover;" />
+        </a>
       </div>
     </div>
     <div id="fourseasons" class="content-section">
