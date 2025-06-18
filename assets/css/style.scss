@@ -18,15 +18,12 @@
 */
 
 body {
-  font-size: ($font-size) / $em;
-  background-color: var(--bg-color);
+  background: #ffffff;
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
-  text-align: center;
-  padding-bottom: 40px;
-  color: var(--text-color);
-  transition: background-color var(--transition-speed), color var(--transition-speed);
-  position: relative;
-
+  font-size: 16px;
+  line-height: 1.5;
+  color: #24292e;
+  transition: all 0.3s ease;
   &:before {
     content: '';
     position: fixed;
@@ -34,8 +31,17 @@ body {
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(90deg, #C54E51 0%, #E86D58 35%, #5B5090 71%, #436EEB 100%);
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: 1000;
+  }
+  a {
+    color: #0366d6;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    &:hover {
+      color: darken(#0366d6, 10%);
+      text-decoration: underline;
+    }
   }
 }
 
@@ -187,6 +193,10 @@ ol, ul {
 }
 
 .img-circle {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  object-position: center;
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(0,0,0,0.2);
   transition: opacity 1s ease-in-out;
@@ -583,11 +593,15 @@ footer {
   
 .logo a {
   font-size: 1.5rem;
-    font-weight: 700;
-      color: var(--text-color);
+  font-weight: 700;
+  color: var(--text-color);
   text-decoration: none;
-      transition: color var(--transition-speed);
-  }
+  transition: color var(--transition-speed);
+}
+.logo a:hover {
+  color: #d35b41;
+  text-decoration: none;
+}
   
   .nav-menu {
     display: flex;
@@ -641,9 +655,9 @@ footer {
   transition: color var(--transition-speed);
 }
 
-.sub-nav-menu a:hover,
-.sub-nav-menu a.active {
-  color: var(--link-color);
+.sub-nav-menu a:hover {
+  color: #333;
+  text-decoration: underline;
 }
 
 // Adjust container for fixed nav
@@ -745,9 +759,10 @@ body.work .container {
         font-size: 1rem;
         padding: 0.5rem;
         transition: color var(--transition-speed);
-
+        
         &:hover {
-          color: #333;
+          color: #D35B52;
+          text-decoration: underline;
         }
         
         &.active {
@@ -795,16 +810,22 @@ body.work .container {
 
 .two-column-nav a {
   display: block;
-  padding: 0.5rem 0.3rem;
+  padding: 10px;
   text-decoration: none;
   color: #333;
-  border-left: 3px solid transparent;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  transition: all 0.2s;
+  font-size: 1em;
+  font-weight: 300;
+  border-left: 4px solid transparent;
 }
 
-.two-column-nav a:hover,
-.two-column-nav a.active {
-  border-left-color: #007bff;
-  background-color: #f8f9fa;
+.two-column-nav a:hover {
+  background-color: #e9ecef;
+  border-left-color: #d35b41;
+  color: #d35b41;
+  text-decoration: none;
 }
 
 .two-column-nav a.active {
@@ -1164,19 +1185,14 @@ margin-top: 0;
     font-size: 1em;
     font-weight: 300;
     border-left: 4px solid transparent;
-    
-    &:hover {
-      background-color: #e9ecef;
-      border-left-color: #d35b41;
-    }
-    
-    &.active {
-      background-color: #d35b41;
-      color: white;
-      border-left-color: #d35b41;
-      font-weight: 400;
-    }
   }
+}
+
+.two-column-nav a:hover {
+  background-color: #e9ecef;
+  border-left-color: #d35b41;
+  color: #d35b41;
+  text-decoration: none;
 }
 
 .two-column-content {
@@ -1513,7 +1529,7 @@ dl {
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #C54E51 0%, #E86D58 35%, #5B5090 71%, #436EEB 100%);
+  background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   z-index: 1000;
 }
 
