@@ -27,6 +27,8 @@ navigation:
           url: /work/background/
         - title: References
           url: /work/references/
+        - title: Portfolio
+          url: /work/portfolio/
     - title: My Story
       url: /story/
 

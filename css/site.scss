@@ -1513,3 +1513,41 @@ dl {
     text-align: left;
   }
 }
+
+// Project gallery styles
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+  
+  a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    transition: transform 0.2s;
+    
+    &:hover {
+      transform: scale(1.02);
+    }
+    
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
+    }
+  }
+}
+
+// Fancybox custom styles
+.fancybox__container {
+  --fancybox-bg: rgba(0, 0, 0, 0.95);
+}
+
+.fancybox__caption {
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
+}

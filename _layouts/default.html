@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} - Aaron Salmon</title>
   <link rel="stylesheet" href="/css/site.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
 </head>
 <body {% if page.layout == 'work' or page.category == 'work' or page.url contains '/work/' %}class="work"{% endif %}>
   {% include header.html %}
@@ -36,7 +37,13 @@
     </div>
   </footer>
   <script src="/assets/js/two-column-nav.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
   <script>
+    // Initialize Fancybox
+    Fancybox.bind("[data-fancybox]", {
+      // Your custom options
+    });
+
     // Set initial theme and icon
     const initialTheme = 'theme-1';
     document.documentElement.setAttribute('data-theme', initialTheme);

@@ -1,47 +1,49 @@
 ---
-layout: default
+layout: home
 title: Aaron U Salmon - Jovial lad and professional fellow.
 tags: site
 ---
 
-<h2>User Experience Engineer &amp; Art Director</h2>
 
 <h1>{{ site.owner.name }}</h1>
+<h2>Product &amp; UX Design Leadership</h2>
 
 <h3>
   "Professionalism begets <b>colleaguery</b>, that spirit of mutual support and collective identity that contributes so potently to creative exchange and the sense of progress. It's my responsibility to engender this spirit by setting an amiable, stimulating, creative and professional example." <span>- Yuri Rasovsky</span>
 </h3>
 
-<div class="vcard " id="hcard-Aaron-U-Salmon" profile="http://www.w3.org/2006/03/hcard" >
-  <div id="contact-info">
-    {% include contactinfo.html %}
-  </div>
-  <div id="handsome">
-    {% if site.owner.avatar1 %}
-    <div class="shadow crossfade" data-section="home">
-      <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar1 }}">
-      <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar2 }}">
-      <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar3 }}">
-      <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar4 }}">
-      <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar5 }}">
+<div class="container">
+  <div class="vcard " id="hcard-Aaron-U-Salmon" profile="http://www.w3.org/2006/03/hcard" >
+    <div id="contact-info">
+      {% include contactinfo.html %}
     </div>
-    <div class="image-dots" data-section="home">
-      <div class="image-dot active" data-index="0"></div>
-      <div class="image-dot" data-index="1"></div>
-      <div class="image-dot" data-index="2"></div>
-      <div class="image-dot" data-index="3"></div>
-      <div class="image-dot" data-index="4"></div>
+    <div id="handsome">
+      {% if site.owner.avatar1 %}
+      <div class="shadow crossfade" data-section="home">
+        <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar1 }}">
+        <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar2 }}">
+        <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar3 }}">
+        <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar4 }}">
+        <img width="230" height="230" class="img-circle" alt="Aaron Salmon" src="img/{{ site.owner.avatar5 }}">
+      </div>
+      <div class="image-dots" data-section="home">
+        <div class="image-dot active" data-index="0"></div>
+        <div class="image-dot" data-index="1"></div>
+        <div class="image-dot" data-index="2"></div>
+        <div class="image-dot" data-index="3"></div>
+        <div class="image-dot" data-index="4"></div>
+      </div>
+      {% endif %}
     </div>
-    {% endif %}
-  </div>
-  <div id="elsewhere">
-    {% include elsewhere.html %}
-  </div>
-  <div id="history">
-    {% include history.html %}
-  </div>
-  <div id="civic">
-    {% include civic.html %}
+    <div id="elsewhere">
+      {% include elsewhere.html %}
+    </div>
+    <div id="history">
+      {% include history.html %}
+    </div>
+    <div id="civic">
+      {% include civic.html %}
+    </div>
   </div>
 </div>
 
