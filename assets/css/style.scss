@@ -1599,3 +1599,18 @@ dl {
   font-size: 1rem;
   padding: 1rem;
 }
+
+.job-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-right: 16px;
+  vertical-align: middle;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+#community .job-logo {
+  display: none;
+}
