@@ -2,12 +2,12 @@
 <nav class="main-nav">
   <div class="nav-container">
     <div class="logo">
-      <a href="/">Aaron U Salmon</a>
+      <a href="/">Aaron S.</a>
     </div>
     <ul class="nav-menu">
-      <li><a href="/" class="{% if page.layout == 'home' %}active{% endif %}">Overview</a></li>
-      <li><a href="/story" class="{% if page.layout == 'story' %}active{% endif %}">My Story</a></li>
-      <li><a href="/work" class="{% if page.layout == 'work' or page.category == 'work' %}active{% endif %}">My Work</a></li>
+      <li><a href="/" class="{% if page.layout == 'home' %}active{% endif %}"><span class="nav-desktop">Overview</span><span class="nav-mobile">Home</span></a></li>
+      <li><a href="/story" class="{% if page.layout == 'story' %}active{% endif %}"><span class="nav-desktop">My Story</span><span class="nav-mobile">Story</span></a></li>
+      <li><a href="/work" class="{% if page.layout == 'work' or page.category == 'work' %}active{% endif %}"><span class="nav-desktop">My Work</span><span class="nav-mobile">Work</span></a></li>
     </ul>
   </div>
 </nav> 
