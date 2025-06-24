@@ -84,9 +84,6 @@ permalink: /work/portfolio/
         <a href="/img/projects/dds/04_design_system.png" data-fancybox="dds-gallery" data-caption="Design System">
           <img src="/img/projects/dds/04_design_system.png" alt="Design System" />
         </a>
-        <a href="/img/projects/dds/05_visual_language.png" data-fancybox="dds-gallery" data-caption="Visual Language">
-          <img src="/img/projects/dds/05_visual_language.png" alt="Visual Language" />
-        </a>
         <a href="/img/projects/dds/19_ux_process.png" data-fancybox="dds-gallery" data-caption="UX Process">
           <img src="/img/projects/dds/19_ux_process.png" alt="UX Process" />
         </a>
