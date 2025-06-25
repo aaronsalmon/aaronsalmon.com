@@ -9,7 +9,8 @@ permalink: /work/values/
 <div class="two-column-container">
   <div class="two-column-nav">
     <ul>
-      <li><a href="#design" class="active">Design Philosophy</a></li>
+      <li><a href="#howiwork" class="active">How I Work</a></li>
+      <li><a href="#design">Design Philosophy</a></li>
       <li><a href="#growth">Personal Growth & Leadership</a></li>
       <li><a href="#community">Community & Democracy</a></li>
       <li><a href="#life">Life Philosophy</a></li>
@@ -17,7 +18,24 @@ permalink: /work/values/
   </div>
   
   <div class="two-column-content left-aligned">
-    <div id="design" class="content-section active">
+    <div id="howiwork" class="content-section active">
+      <h2>How I Work</h2>
+      <h3>Understanding my natural talents</h3>
+      <p>I'm a firm believer that the best work happens when you understand your natural strengths and lean into them. My <a href="https://www.gallup.com/cliftonstrengths/en/home.aspx" aria-label="Learn more about CliftonStrengths assessment (opens in a new tab)" target="_blank" rel="noopener noreferrer">CliftonStrengths</a> assessment revealed why I'm naturally drawn to complex UX challenges that involve diverse stakeholders and meaningful impact.</p>
+      <p><strong>My top 5 strengths and how they show up in my work:</strong></p>
+      <ul class="strengths-list">
+        <li><span class="strength-emoji">🌟</span> <strong>Positivity</strong> – I bring contagious enthusiasm to challenging projects and help teams see possibilities even in complex situations. As one colleague put it: "When you're in a room, the mood always changes... it's just better."</li>
+        <li><span class="strength-emoji">🔧</span> <strong>Arranger</strong> – I excel at coordinating complex projects with multiple stakeholders, figuring out how all the pieces fit together for maximum impact. Think "special ops" for UX challenges.</li>
+        <li><span class="strength-emoji">🌐</span> <strong>Connectedness</strong> – I naturally see how everything links together, which helps me understand the bigger picture of how user research connects to business goals and community impact.</li>
+        <li><span class="strength-emoji">🎯</span> <strong>Belief</strong> – I'm driven by purpose over profit. My work has to matter – whether that's strengthening democracy through campaign &amp; advocacy tools or improving workflows for our servicemembers and military families.</li>
+        <li><span class="strength-emoji">🤝</span> <strong>Includer</strong> – I instinctively ensure all voices are heard, especially those typically left out. This makes me effective at research with diverse user groups and building consensus among stakeholders.</li>
+      </ul>
+      <h3>The Midwest advantage</h3>
+      <p>I've often joked that another reason I'm good at this work is that I'm from the Midwest - When I enter a new situation I can immediately sense when the vibe is off. It's the ability to read between the lines and pick up on what's really happening beneath the surface. As writer <a href="https://www.thrillist.com/lifestyle/nation/my-life-living-midwestern-nice" aria-label="Read Paul Kix's article on Midwestern Nice (opens in a new tab)" target="_blank" rel="noopener noreferrer">Paul Kix put it</a> about our region's secret: "we live on a heightened plane of consciousness that few can comprehend. To be from here is, quite simply, to read a room better than f*cking anyone." It's a skill that serves UX researchers well.</p>
+      <p><i>These aren't just personality traits – they're the foundation of how I approach user research, team collaboration, and community engagement. They explain why I thrive in environments where UX research meets real human impact.</i></p>
+    </div>
+
+    <div id="design" class="content-section">
       <h2>Design Philosophy</h2>
       <h3>Go Where the Work Is</h3>
       <p>Show up and experience the problem firsthand. From military bases in Iraq to nonprofit offices to campaign headquarters - you can't design solutions from a conference room.</p>

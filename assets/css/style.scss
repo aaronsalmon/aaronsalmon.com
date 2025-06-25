@@ -1593,3 +1593,21 @@ dl {
   .nav-mobile { display: inline; }
   .nav-desktop { display: none; }
 }
+
+.strengths-list {
+  margin-bottom: 2em;
+}
+.strengths-list li {
+  margin-bottom: 1em;
+  line-height: 1.6;
+  font-size: 1em;
+}
+.strengths-list li .strength-emoji {
+  font-size: 1.5em;
+  vertical-align: middle;
+  margin-right: 0.25em;
+}
+.strengths-list li strong {
+  font-size: 1.15em;
+  font-weight: 600;
+}
